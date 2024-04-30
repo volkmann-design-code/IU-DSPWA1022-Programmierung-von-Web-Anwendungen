@@ -1,0 +1,18 @@
+:root {
+  --slidev-content-padding-left: 3.5rem;
+  --slidev-content-padding-right: 3.5rem;
+  --slidev-content-padding-top: 2.5rem;
+  --slidev-content-padding-bottom: 2.5rem;
+}
+
+.slidev-layout {
+  padding-left: var(--slidev-content-padding-left);
+  padding-right: var(--slidev-content-padding-right);
+  padding-top: var(--slidev-content-padding-top);
+  padding-bottom: var(--slidev-content-padding-bottom);
+}
+
+h1 {
+  line-height: 4.5rem !important;
+  margin-bottom: 2rem !important;
+}

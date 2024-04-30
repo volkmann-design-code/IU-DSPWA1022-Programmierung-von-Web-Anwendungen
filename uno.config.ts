@@ -11,7 +11,9 @@ import {
 
 export default defineConfig({
   shortcuts: {
-    footer: "text-[12px] text-[#ababab]",
+    footer: "text-base text-[#ababab]",
+    left: "left-[var(--slidev-content-padding-left)]",
+    right: "right-[var(--slidev-content-padding-right)]",
   },
   presets: [
     presetUno(),
