@@ -1,0 +1,18 @@
+{
+  "name": "iu-dspwa1022",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "slidev build",
+    "start": "bun run dev",
+    "dev": "slidev --open",
+    "export": "slidev export"
+  },
+  "dependencies": {
+    "@slidev/cli": "^0.49.0-beta.4",
+    "@slidev/theme-apple-basic": "^0.25.1",
+    "@slidev/theme-default": "latest",
+    "@slidev/theme-seriph": "latest",
+    "vue": "^3.4.22"
+  }
+}
