@@ -10,6 +10,9 @@ import {
   } from 'unocss'
   
   export default defineConfig({
+    shortcuts: {
+      'footer': 'text-[12px] text-[#ababab]'
+    },
     presets: [
       presetUno(),
       presetAttributify(),
