@@ -1,27 +1,24 @@
 import {
-    defineConfig,
-    presetAttributify,
-    presetIcons,
-    presetTypography,
-    presetUno,
-    presetWebFonts,
-    transformerDirectives,
-    transformerVariantGroup
-  } from 'unocss'
-  
-  export default defineConfig({
-    shortcuts: {
-      'footer': 'text-[12px] text-[#ababab]'
-    },
-    presets: [
-      presetUno(),
-      presetAttributify(),
-      presetIcons(),
-      presetTypography(),
-      presetWebFonts(),
-    ],
-    transformers: [
-      transformerDirectives(),
-      transformerVariantGroup(),
-    ],
-  })
+  defineConfig,
+  presetAttributify,
+  presetIcons,
+  presetTypography,
+  presetUno,
+  presetWebFonts,
+  transformerDirectives,
+  transformerVariantGroup,
+} from "unocss";
+
+export default defineConfig({
+  shortcuts: {
+    footer: "text-[12px] text-[#ababab]",
+  },
+  presets: [
+    presetUno(),
+    presetAttributify(),
+    presetIcons(),
+    presetTypography(),
+    presetWebFonts(),
+  ],
+  transformers: [transformerDirectives(), transformerVariantGroup()],
+});
