@@ -5,7 +5,21 @@ image: "/images/slides/1/bg.jpg"
 
 # Programmieren von Webanwendungen
 
-[slides.volkmann.dev/iu/dspwa1022](https://slides.volkmann.dev/iu/dspwa1022){.text-base}
+<div class="text-base">
+  <p>
+    Slides:
+    <a href="https://slides.volkmann.dev/iu/dspwa1022" target="_blank">
+      slides.volkmann.dev/iu/dspwa1022
+    </a>
+  </p>
+  
+  <p>
+    Source:
+    <a href="https://github.com/volkmann-design-code/IU-DSPWA1022-Programmierung-von-Web-Anwendungen" target="_blank">
+      github.com
+    </a>
+  </p>
+</div>
 
 <div class="absolute bottom-10 left">
   Enzo Volkmann
