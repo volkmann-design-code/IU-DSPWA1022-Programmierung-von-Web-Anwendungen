@@ -1,7 +1,8 @@
 ---
 # global settings
-title: DSPWA1022
+titleTemplate: "%s - DSPWA1022 - SoSe 24"
 info: Programmieren von Webanwendungen - SoSe 2024
+author: Enzo Volkmann
 theme: apple-basic
 highlighter: shiki
 transition: slide-left
