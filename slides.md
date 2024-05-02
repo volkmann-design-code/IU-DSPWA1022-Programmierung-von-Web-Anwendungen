@@ -53,3 +53,7 @@ src: ./slides/00540-knowledge-challenge-sql.md
 ---
 src: ./slides/00550-knowledge-challenge-uml.md
 ---
+
+---
+src: ./slides/00560-knowledge-challenge-oop.md
+---

@@ -1,0 +1,3 @@
+.slidev-code:has(span:only-of-type:empty) {
+  opacity: 0;
+}
