@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<ChallengeHeader index="4"/>
+<ChallengeHeader index="5"/>
 
 ````md magic-move {at:2}
 ```java

@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<ChallengeHeader index="7"/>
+<ChallengeHeader index="8"/>
 
 <div class="absolute right bottom-content w-[14rem]" v-click.hide="6">
 

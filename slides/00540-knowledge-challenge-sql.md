@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<ChallengeHeader index="5"/>
+<ChallengeHeader index="6"/>
 
 ````md magic-move {at:2}
 ```sql
