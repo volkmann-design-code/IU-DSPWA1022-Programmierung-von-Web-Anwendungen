@@ -69,3 +69,19 @@ src: ./slides/00599-knowledge-outro.md
 ---
 src: ./slides/00600-goals-intro.md
 ---
+
+---
+src: ./slides/00700-oop-intro.md
+---
+
+---
+src: ./slides/00705-oop-basics.md
+---
+
+---
+src: ./slides/00710-oop-classes.md
+---
+
+---
+src: ./slides/00715-oop-inheritance.md
+---

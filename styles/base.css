@@ -12,6 +12,19 @@
   padding-bottom: var(--slidev-content-padding-bottom);
 }
 
+.dark .slidev-layout {
+  color: #e3e3e3;
+}
+
+.dark .slidev-layout h1,
+.dark .slidev-layout h2,
+.dark .slidev-layout h3,
+.dark .slidev-layout h4,
+.dark .slidev-layout h5,
+.dark .slidev-layout h6 {
+  color: #fff;
+}
+
 h1 {
   line-height: 4.5rem !important;
   margin-bottom: 2rem !important;

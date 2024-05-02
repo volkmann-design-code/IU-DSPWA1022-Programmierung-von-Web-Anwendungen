@@ -21,7 +21,7 @@ layout: default
 
 <div class="flex gap-4 text-6xl absolute bottom left">
     <div class="i-devicon-angular duration-500" v-click/>
-    <div class="i-logos-kirby-icon duration-500 forward:delay-100" v-after/>
+    <div class="i-simple-icons-kirby duration-500 forward:delay-100" v-after/>
     <div class="i-devicon-nodejs duration-500 forward:delay-200" v-after/>
     <div class="i-devicon-nestjs duration-500 forward:delay-300" v-after/>
     <div class="i-devicon-postgresql duration-500 forward:delay-400" v-after/>

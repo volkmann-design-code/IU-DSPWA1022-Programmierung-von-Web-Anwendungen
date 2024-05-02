@@ -2,9 +2,9 @@
 layout: section
 ---
 
-# 🚌 Fahrplan
-
-Was ich euch vermitteln möchte
+<EmojiTitle title="Fahrplan" emoji="🚌">
+  Was ich euch vermitteln möchte
+</EmojiTitle>
 
 <div class="absolute top right flex flex-col gap-4">
   <Card

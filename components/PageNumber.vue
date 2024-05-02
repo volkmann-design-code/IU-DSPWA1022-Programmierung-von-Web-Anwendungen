@@ -1,5 +1,3 @@
 <template>
-  <div class="absolute bottom right footer">
-    {{ $page }}
-  </div>
+  <Footer :text="$page.toString()" class="left-unset right" />
 </template>

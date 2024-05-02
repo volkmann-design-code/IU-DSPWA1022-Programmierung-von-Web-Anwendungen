@@ -12,7 +12,7 @@ import {
 export default defineConfig({
   shortcuts: {
     "text-muted": "text-[#ababab]",
-    footer: "text-base text-muted",
+    footer: "text-sm text-muted",
     "top-content": "top-[7.5rem]",
     "top-content-2": "top-[9.75rem]",
     "bottom-content": "bottom-[3.1rem]",

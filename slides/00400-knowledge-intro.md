@@ -2,11 +2,11 @@
 layout: section
 ---
 
-# 🤷‍♂️ Wo steht ihr?
-
+<EmojiTitle title="Wo steht ihr?" emoji="🤷‍♂️">
 Vorerfahrungen aus Studium und Unternehmen?
 
 Welche Technologien & Frameworks? Private Projekte?{.text-muted}
+</EmojiTitle>
 
 <PageNumber/>
 
