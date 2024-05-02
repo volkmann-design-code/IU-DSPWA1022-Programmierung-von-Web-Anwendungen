@@ -33,3 +33,11 @@ src: ./slides/00400-knowledge-intro.md
 ---
 src: ./slides/00500-knowledge-challenge-html.md
 ---
+
+---
+src: ./slides/00510-knowledge-challenge-css.md
+---
+
+---
+src: ./slides/00520-knowledge-challenge-js.md
+---

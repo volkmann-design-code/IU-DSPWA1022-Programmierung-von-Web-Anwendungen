@@ -2,9 +2,7 @@
 layout: default
 ---
 
-# 🤷‍♂️ Wo steht ihr?
-
-**Challenge 1**
+<ChallengeHeader index="1"/>
 
 ````md magic-move {at:2}
 ```html
