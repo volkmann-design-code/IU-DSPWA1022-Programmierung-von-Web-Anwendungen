@@ -61,3 +61,11 @@ src: ./slides/00550-knowledge-challenge-uml.md
 ---
 src: ./slides/00560-knowledge-challenge-oop.md
 ---
+
+---
+src: ./slides/00599-knowledge-outro.md
+---
+
+---
+src: ./slides/00600-goals-intro.md
+---

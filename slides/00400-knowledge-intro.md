@@ -1,6 +1,5 @@
 ---
 layout: section
-image: "/images/slides/1/bg.jpg"
 ---
 
 # 🤷‍♂️ Wo steht ihr?
