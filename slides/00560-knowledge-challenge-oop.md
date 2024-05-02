@@ -130,21 +130,6 @@ public class Zebra extends Animal {
         return true;
     }
 
-}
-```
-
-```java
-public class Zebra extends Animal {
-
-    public Zebra(int age) {
-        super(age);
-    }
-
-    @Override
-    boolean isMammal() {
-        return true;
-    }
-
     void run() {
         System.out.println("Run!");
     }
