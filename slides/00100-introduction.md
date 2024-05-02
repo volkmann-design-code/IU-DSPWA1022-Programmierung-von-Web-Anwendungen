@@ -11,8 +11,6 @@ layout: default
 <div class="flex gap-4 mt-2 mb-6 text-xl">
     <span>🕘 28 Jahre</span>
     <span>🏡 Kassel</span>
-    <span></span>
-    <span></span>
 </div>
 
 - Duales Studium Wirtschaftsinformatik (2014-2017)

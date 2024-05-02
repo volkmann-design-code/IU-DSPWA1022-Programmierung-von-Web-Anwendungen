@@ -11,17 +11,25 @@ drawings:
   persist: false
 
 # slide-specific settings are in the respective markdown files
-src: ./slides/intro.md
+src: ./slides/00000-intro.md
 ---
 
 ---
-src: ./slides/toc.md
+src: ./slides/00100-introduction.md
 ---
 
 ---
-src: ./slides/introduction.md
+src: ./slides/00200-toc.md
 ---
 
 ---
-src: ./slides/content-overview.md
+src: ./slides/00300-organizational.md
+---
+
+---
+src: ./slides/00400-knowledge-intro.md
+---
+
+---
+src: ./slides/00500-knowledge-challenge-html.md
 ---
