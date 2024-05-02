@@ -45,3 +45,7 @@ src: ./slides/00520-knowledge-challenge-js.md
 ---
 src: ./slides/00530-knowledge-challenge-java.md
 ---
+
+---
+src: ./slides/00540-knowledge-challenge-sql.md
+---
