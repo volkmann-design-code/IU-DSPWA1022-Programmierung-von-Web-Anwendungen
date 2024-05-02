@@ -4,7 +4,7 @@ layout: default
 
 <ChallengeHeader index="8"/>
 
-<div class="absolute right bottom-content w-[14rem]" v-click.hide="6">
+<div class="absolute right top-content-2 w-[19rem]" v-click.hide="4">
 
 ```mermaid
   classDiagram
@@ -31,6 +31,19 @@ layout: default
         +bool is_wild
         +run()
       }
+
+```
+
+</div>
+
+<div class="absolute right bottom-content" v-click.show="4" v-click.hide="6">
+
+```mermaid
+  classDiagram
+    class Zebra{
+      +bool is_wild
+      +run()
+    }
 
 ```
 
