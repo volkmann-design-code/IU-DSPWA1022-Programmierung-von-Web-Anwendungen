@@ -1,5 +1,5 @@
 <template>
-  <div class="absolute bottom-10 right footer">
+  <div class="absolute bottom right footer">
     {{ $page }}
   </div>
 </template>

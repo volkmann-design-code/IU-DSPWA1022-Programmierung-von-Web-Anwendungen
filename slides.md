@@ -41,3 +41,7 @@ src: ./slides/00510-knowledge-challenge-css.md
 ---
 src: ./slides/00520-knowledge-challenge-js.md
 ---
+
+---
+src: ./slides/00530-knowledge-challenge-java.md
+---
