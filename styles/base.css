@@ -1,6 +1,6 @@
 :root {
-  --slidev-content-padding-left: 2.5rem;
-  --slidev-content-padding-right: 2.5rem;
+  --slidev-content-padding-left: 2rem;
+  --slidev-content-padding-right: 2rem;
   --slidev-content-padding-top: 1.5rem;
   --slidev-content-padding-bottom: 1.5rem;
 }
@@ -25,7 +25,8 @@
   color: #fff;
 }
 
-h1 {
+.slidev-layout.section h1,
+.slidev-layout.intro-image h1 {
   line-height: 4.5rem !important;
   margin-bottom: 2rem !important;
 }
