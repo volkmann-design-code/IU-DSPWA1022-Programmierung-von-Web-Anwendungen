@@ -26,14 +26,15 @@ void main() {
     ibans.add("DE02500105170137075030");
 
     final List<Integer> pin = new LinkedList<int>();
-    pin.add(1);
-    pin.add(2);
-    pin.add(3);
-    pin.add(4);
+    pin.offer(1); // offer() fügt am Ende ein
+    pin.offer(2);
+    pin.offer(3);
+    pin.offer(4);
 
     // `contains()` ist im `List` Interface definiert
     final boolean hasMyIban = ibans.contains("DE...");
-    final boolean pinContainsOne = pin.contains(1);
+    final boolean pinHasOne = pin.contains(1); ✅
+    final boolean pinHasFive = pin.contains(5); 🚫
 }
 ```
 ````
