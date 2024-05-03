@@ -131,13 +131,21 @@ src: ./slides/00746-oop-primitives-array-3.md
 ---
 
 ---
-src: ./slides/00750-oop-generics.md
+src: ./slides/00750-oop-constructors.md
 ---
 
 ---
-src: ./slides/00752-oop-generics-interfaces.md
+src: ./slides/00752-oop-factory.md
 ---
 
 ---
-src: ./slides/00754-oop-generics-page.md
+src: ./slides/00800-oop-generics.md
+---
+
+---
+src: ./slides/00802-oop-generics-interfaces.md
+---
+
+---
+src: ./slides/00804-oop-generics-page.md
 ---
