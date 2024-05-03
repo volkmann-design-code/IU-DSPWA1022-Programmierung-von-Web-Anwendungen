@@ -24,14 +24,6 @@ void main() {
     final Map<String, Float> accounts = new HashMap();
     accounts.put("DE02120300000000202051", 100f);
     accounts.put("DE02500105170137075030", 123.45f);
-}
-```
-
-```java
-void main() {
-    final Map<String, Float> accounts = new HashMap();
-    accounts.put("DE02120300000000202051", 100f);
-    accounts.put("DE02500105170137075030", 123.45f);
 
     // 🚫 ERROR: The key must be a String!
     accounts.put(42, 123.45f);
