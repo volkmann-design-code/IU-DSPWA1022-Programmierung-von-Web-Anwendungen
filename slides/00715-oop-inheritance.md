@@ -6,13 +6,14 @@ layout: default
     text="🎁 Objektorientierte Programmierung"
 />
 
-# Vererbung
+# Vererbung <SubHeading text="Übersicht"/>
 
 <div class="grid grid-cols-12 gap-6">
 <div class="col-span-6">
 
 - Klassen können Eigenschaften und Methoden von vorhandenen Klassen erben
 - Sie beherrschen dann gemeinsame Fähigkeiten und können allgemein genutzt werden
+- Zusätzlich können sie spezifische Eigenschaften und Methoden haben
 
 </div>
 <div class="col-span-6">
@@ -48,8 +49,8 @@ public class Bike extends Vehicle {
 }
 
 void main() {
-    final Car golf = new Car("VW");
-    final Bike mtb = new Bike(28);
+    final Vehicle golf = new Car("VW");
+    final Vehicle mtb = new Bike(28);
 }
 ```
 
@@ -63,8 +64,8 @@ public class Bike extends Vehicle {
 }
 
 void main() {
-    final Car golf = new Car("VW");
-    final Bike mtb = new Bike(28);
+    final Vehicle golf = new Car("VW");
+    final Vehicle mtb = new Bike(28);
 
     golf instanceof Car; // true
     golf instanceof Vehicle; // true
@@ -81,8 +82,8 @@ public class Bike extends Vehicle {
 }
 
 void main() {
-    final Car golf = new Car("VW");
-    final Bike mtb = new Bike(28);
+    final Vehicle golf = new Car("VW");
+    final Vehicle mtb = new Bike(28);
 
     golf instanceof Car; // true
     golf instanceof Vehicle; // true
@@ -90,6 +91,20 @@ void main() {
     mtb instanceof Car; // false !
     mtb instanceof Bike; // true
     mtb instanceof Vehicle; // true
+}
+```
+
+```java
+public abstract class Vehicle {
+    public void move();
+}
+
+void main() {
+    final Vehicle golf = new Car("VW");
+    final Vehicle mtb = new Bike(28);
+
+    golf.move();
+    mtb.move();
 }
 ```
 ````

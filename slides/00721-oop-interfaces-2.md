@@ -6,12 +6,12 @@ layout: default
     text="🎁 Objektorientierte Programmierung"
 />
 
-# Interfaces
+# Interfaces <SubHeading text="Lifecycle Events"/>
 
 <div class="grid grid-cols-12 gap-6">
 <div class="col-span-6">
 
-- Interfaces werden in Anwendungen auch genutzt, damit Komponenten an gewissen "Lifecycle-Events" teilnehmen können
+- Interfaces werden in Anwendungen auch genutzt, damit Komponenten auf gewisse **Lifecycle Events** reagieren zu können
 - Beispiele finden sich in vielen Frameworks
   - [Svelte](https://svelte.dev/docs/svelte#onmount)
   - [Angular](https://angular.io/guide/lifecycle-hooks#lifecycle-event-sequence)

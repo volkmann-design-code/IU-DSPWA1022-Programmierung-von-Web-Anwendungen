@@ -6,9 +6,10 @@ layout: default
     text="🎁 Objektorientierte Programmierung"
 />
 
-# Sichtbarkeit <span class="text-muted text-2xl">Zusammenfassung</span>
+# Sichtbarkeit <SubHeading text="Zusammenfassung"/>
 
 Methoden und Eigenschaften einer Klasse sind in unterschiedlichen Kontexten sichtbar, abhängig vom _Modifikator_.
+Die Tabelle zeigt die verschiedenen Möglichkeiten in **Java**.
 
 |               | **Class** | **Package** | **Subclass** | **World** |
 | ------------- | --------- | ----------- | ------------ | --------- |

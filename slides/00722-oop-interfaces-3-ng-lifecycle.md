@@ -6,7 +6,7 @@ layout: default
     text="🎁 Objektorientierte Programmierung"
 />
 
-# Interfaces
+# Interfaces <SubHeading text="Beispiel Angular"/>
 
 <div class="grid grid-cols-12 gap-6">
 <div class="col-span-6">

@@ -6,7 +6,7 @@ layout: default
     text="🎁 Objektorientierte Programmierung"
 />
 
-# Interfaces
+# Interfaces <SubHeading text="Übersicht"/>
 
 <div class="grid grid-cols-12 gap-6">
 <div class="col-span-6">
@@ -14,6 +14,7 @@ layout: default
 - Neben Klassen (`class`) gibt es auch definierte Schnittstellen (`interface`)
 - Sie werden genutzt, um Gemeinsamkeiten und Fähigkeiten von Objekten zu beschreiben
 - Sie dienen der Abstraktion und zur Bildung allgemeingültiger "Verträge"
+- Je nach Anwendungsfall kann eine abstrakte Klasse oder ein Interface sinnvoller sein
 
 </div>
 <div class="col-span-6">

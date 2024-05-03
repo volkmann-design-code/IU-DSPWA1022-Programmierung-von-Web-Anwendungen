@@ -6,7 +6,7 @@ layout: default
     text="🎁 Objektorientierte Programmierung"
 />
 
-# Sichtbarkeit <span class="text-muted text-2xl">protected</span>
+# Sichtbarkeit <SubHeading text="protected"/>
 
 <div class="grid grid-cols-12 gap-6">
 <div class="col-span-6">
