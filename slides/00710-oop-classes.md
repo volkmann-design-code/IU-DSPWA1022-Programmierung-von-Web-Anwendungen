@@ -6,9 +6,9 @@ layout: default
     text="🎁 Objektorientierte Programmierung"
 />
 
-# Was bedeutet "objektorientiert"?
+# Klassen
 
-<div class="grid grid-cols-12 gap-4">
+<div class="grid grid-cols-12 gap-6">
 <div class="col-span-6">
 
 - Gleichartige Objekte gehören derselben Klasse an

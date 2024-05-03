@@ -8,7 +8,7 @@ layout: default
 
 # Vererbung
 
-<div class="grid grid-cols-12 gap-4">
+<div class="grid grid-cols-12 gap-6">
 <div class="col-span-6">
 
 - Klassen können Eigenschaften und Methoden von vorhandenen Klassen erben

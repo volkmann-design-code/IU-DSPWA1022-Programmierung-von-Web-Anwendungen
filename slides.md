@@ -85,3 +85,15 @@ src: ./slides/00710-oop-classes.md
 ---
 src: ./slides/00715-oop-inheritance.md
 ---
+
+---
+src: ./slides/00720-oop-interfaces.md
+---
+
+---
+src: ./slides/00721-oop-interfaces-2.md
+---
+
+---
+src: ./slides/00722-oop-interfaces-3-ng-lifecycle.md
+---

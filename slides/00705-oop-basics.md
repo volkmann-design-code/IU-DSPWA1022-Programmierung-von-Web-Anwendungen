@@ -8,11 +8,11 @@ layout: default
 
 # Was bedeutet "objektorientiert"?
 
-<div class="grid grid-cols-12 gap-4">
+<div class="grid grid-cols-12 gap-6">
 <div class="col-span-6">
 
-- Zerlegung von Aufgaben/Dingen der "echten Welt" in kontrollierbare Teile (= Objekte)
-- Objekte haben einen Typ (`class`), Eigenschaften und Methoden
+- Einteilung von Aufgaben/Dingen der "echten Welt" in kontrollierbare Teile (= Objekte)
+- Es gibt verschiedene Typen von Objekten, also verschiedene Klassen (`class`)
 - In ein System/Programm existieren Objekte verschiedener Klassen und interargieren miteinander
 
 </div>
