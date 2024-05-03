@@ -97,3 +97,15 @@ src: ./slides/00721-oop-interfaces-2.md
 ---
 src: ./slides/00722-oop-interfaces-3-ng-lifecycle.md
 ---
+
+---
+src: ./slides/00725-oop-visibility.md
+---
+
+---
+src: ./slides/00726-oop-visibility-protected.md
+---
+
+---
+src: ./slides/00730-oop-visibility-summary.md
+---
