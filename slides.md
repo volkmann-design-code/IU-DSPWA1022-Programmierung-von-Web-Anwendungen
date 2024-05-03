@@ -119,6 +119,18 @@ src: ./slides/00742-oop-primitives-string.md
 ---
 
 ---
+src: ./slides/00744-oop-primitives-array.md
+---
+
+---
+src: ./slides/00745-oop-primitives-array-2.md
+---
+
+---
+src: ./slides/00746-oop-primitives-array-3.md
+---
+
+---
 src: ./slides/00750-oop-generics.md
 ---
 
