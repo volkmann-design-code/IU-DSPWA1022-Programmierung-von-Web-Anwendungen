@@ -36,7 +36,7 @@ layout: default
 
 </div>
 
-<div class="absolute right bottom-content" v-click.show="4" v-click.hide="6">
+<div class="absolute right bottom-content" v-click="[4, 6]">
 
 ```mermaid
   classDiagram
