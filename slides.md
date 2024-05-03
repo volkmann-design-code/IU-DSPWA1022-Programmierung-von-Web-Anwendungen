@@ -109,3 +109,15 @@ src: ./slides/00726-oop-visibility-protected.md
 ---
 src: ./slides/00730-oop-visibility-summary.md
 ---
+
+---
+src: ./slides/00740-oop-generics.md
+---
+
+---
+src: ./slides/00742-oop-generics-interfaces.md
+---
+
+---
+src: ./slides/00744-oop-generics-page.md
+---

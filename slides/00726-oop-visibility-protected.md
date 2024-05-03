@@ -64,7 +64,7 @@ void main() {
     Dog myDog = new Dog("Buddy");
     myDog.introduce();
 
-    // ERROR
+    // 🚫 ERROR
     final String n = myDog.name;
 }
 ```

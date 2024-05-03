@@ -67,8 +67,8 @@ void main() {
     final Vehicle golf = new Car("VW");
     final Vehicle mtb = new Bike(28);
 
-    golf instanceof Car; // true
-    golf instanceof Vehicle; // true
+    golf instanceof Car; ✅
+    golf instanceof Vehicle; ✅
 }
 ```
 
@@ -85,12 +85,12 @@ void main() {
     final Vehicle golf = new Car("VW");
     final Vehicle mtb = new Bike(28);
 
-    golf instanceof Car; // true
-    golf instanceof Vehicle; // true
+    golf instanceof Car; // ✅
+    golf instanceof Vehicle; // ✅
 
-    mtb instanceof Car; // false !
-    mtb instanceof Bike; // true
-    mtb instanceof Vehicle; // true
+    mtb instanceof Car; // 🚫
+    mtb instanceof Bike; // ✅
+    mtb instanceof Vehicle; // ✅
 }
 ```
 
