@@ -111,13 +111,21 @@ src: ./slides/00730-oop-visibility-summary.md
 ---
 
 ---
-src: ./slides/00740-oop-generics.md
+src: ./slides/00740-oop-primitives.md
 ---
 
 ---
-src: ./slides/00742-oop-generics-interfaces.md
+src: ./slides/00742-oop-primitives-string.md
 ---
 
 ---
-src: ./slides/00744-oop-generics-page.md
+src: ./slides/00750-oop-generics.md
+---
+
+---
+src: ./slides/00752-oop-generics-interfaces.md
+---
+
+---
+src: ./slides/00754-oop-generics-page.md
 ---
