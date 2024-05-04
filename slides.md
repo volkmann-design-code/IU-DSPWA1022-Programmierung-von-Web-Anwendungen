@@ -149,3 +149,15 @@ src: ./slides/00802-oop-generics-interfaces.md
 ---
 src: ./slides/00804-oop-generics-page.md
 ---
+
+---
+src: ./slides/00900-java-version-history.md
+---
+
+---
+src: ./slides/00902-java-new-features-1-var.md
+---
+
+---
+src: ./slides/00904-java-new-features-2-switch.md
+---
