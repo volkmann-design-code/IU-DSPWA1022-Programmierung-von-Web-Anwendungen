@@ -169,3 +169,7 @@ src: ./slides/00906-java-new-features-3-record-classes.md
 ---
 src: ./slides/00908-java-new-features-4-sealed-classes.md
 ---
+
+---
+src: ./slides/00910-java-new-features-5-pattern-matching-switch.md
+---
