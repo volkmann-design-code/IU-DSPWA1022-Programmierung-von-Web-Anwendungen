@@ -173,3 +173,7 @@ src: ./slides/00908-java-new-features-4-sealed-classes.md
 ---
 src: ./slides/00910-java-new-features-5-pattern-matching-switch.md
 ---
+
+---
+src: ./slides/00912-java-new-features-6-statements-before-super.md
+---
