@@ -181,3 +181,7 @@ src: ./slides/00912-java-new-features-6-statements-before-super.md
 ---
 src: ./slides/00914-java-new-features-7-unnamed-variables.md
 ---
+
+---
+src: ./slides/00916-java-new-features-8-string-templates.md
+---
