@@ -165,3 +165,7 @@ src: ./slides/00904-java-new-features-2-switch.md
 ---
 src: ./slides/00906-java-new-features-3-record-classes.md
 ---
+
+---
+src: ./slides/00908-java-new-features-4-sealed-classes.md
+---

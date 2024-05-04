@@ -11,8 +11,8 @@ layout: default
 <div class="grid grid-cols-12 gap-6">
 <div class="col-span-5">
 
-- Die klassiche Klassen-Deklaration bring tsehr viel _Boilerplate_-Code mit sich (Konstruktor, Getter, Setter)
-- Seit [Java 14 gibt es _Record Classes_](https://docs.oracle.com/en/java/javase/15/language/records.html#GUID-6699E26F-4A9B-4393-A08B-1E47D4B2D263), mit denen simple Strukturen zum "Datentransport" abgebildet werden können
+- Die klassiche Klassen-Deklaration bringt sehr viel _Boilerplate_-Code mit sich (Konstruktor, Getter, Setter)
+- Seit [Java 16 gibt es _Record Classes_](https://docs.oracle.com/en/java/javase/15/language/records.html#GUID-6699E26F-4A9B-4393-A08B-1E47D4B2D263), mit denen simple Strukturen zum "Datentransport" abgebildet werden können
 - Zusätzliche Methoden, Validierung von Konstruktur-Parametern ist möglich
 
 </div>
