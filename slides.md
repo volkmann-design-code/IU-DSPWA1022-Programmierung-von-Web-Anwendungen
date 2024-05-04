@@ -185,3 +185,7 @@ src: ./slides/00914-java-new-features-7-unnamed-variables.md
 ---
 src: ./slides/00916-java-new-features-8-string-templates.md
 ---
+
+---
+src: ./slides/00918-java-new-features-9-implicit-classes-and-main.md
+---
