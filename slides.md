@@ -177,3 +177,7 @@ src: ./slides/00910-java-new-features-5-pattern-matching-switch.md
 ---
 src: ./slides/00912-java-new-features-6-statements-before-super.md
 ---
+
+---
+src: ./slides/00914-java-new-features-7-unnamed-variables.md
+---
