@@ -42,6 +42,7 @@ classDiagram
     }
 
     class TShirt {
+        String size
     }
 
     class Watch {

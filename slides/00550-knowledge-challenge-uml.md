@@ -44,24 +44,24 @@ classDiagram
 
 ````md magic-move {at:3}
 ```java
-final dagobert = new Duck();
+final Duck dagobert = new Duck();
 ```
 
 ```java
-final dagobert = new Duck();
+final Duck dagobert = new Duck();
 
 System.out.println(dagobert.age);
 ```
 
 ```java
-final dagobert = new Duck();
+final Duck dagobert = new Duck();
 
 System.out.println(dagobert.age);
 dagobert.swim();
 ```
 
 ```java
-final dagobert = new Duck();
+final Duck dagobert = new Duck();
 
 System.out.println(dagobert.age);
 dagobert.swim();
@@ -72,12 +72,12 @@ if (dagobert.isWild) {
 ```
 
 ```java
-final dagobert = new Duck();
+final Duck dagobert = new Duck();
 
 System.out.println(dagobert.age);
 dagobert.swim();
 
-final marty = new Zebra();
+final Zebra marty = new Zebra();
 
 // Only zebras can run...
 if (marty.isWild) {

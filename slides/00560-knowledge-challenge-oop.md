@@ -4,16 +4,20 @@ layout: default
 
 <ChallengeHeader index="8"/>
 
-<div class="absolute right top-content-2 w-[19rem]" v-click.hide="4">
+<div class="absolute right top-content-2 w-[21rem]" v-click.hide="4">
 
 ```mermaid
   classDiagram
       Animal <|-- Duck
       Animal <|-- Fish
       Animal <|-- Zebra
-      Animal : +int age
-      Animal : +String gender
-      Animal: +isMammal()
+
+      class Animal {
+        <<abstract>>
+        +int age
+        +String gender
+        +isMammal()
+      }
 
       class Duck{
         +String beakColor

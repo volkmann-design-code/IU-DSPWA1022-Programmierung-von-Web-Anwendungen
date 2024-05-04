@@ -4,15 +4,11 @@ layout: default
 
 # 📅 Organisatorisches
 
-🎓 [Link zum Kurs in myCampus](https://mycampus.iubh.de/course/view.php?id=6321)
-
-📖 Materialien: diese Präsentation
-
-✉️ Kommunikation: per E-Mail an enzo.volkmann.ext@iu.org
-
-✅ Prüfung: Hausarbeit (Thema bis Ende Juni - 6 Wochen vor Abgabe)
-
-<span v-mark="{color: 'red', animationDuration: 200}">🤝 Feedback & Zusammenarbeit gewünscht</span>
+- 🎓 [Link zum Kurs in myCampus](https://mycampus.iubh.de/course/view.php?id=6321)
+- 📖 Materialien: diese Präsentation
+- ✉️ Kommunikation: per E-Mail an enzo.volkmann.ext@iu.org
+- ✅ Prüfung: Hausarbeit (Thema bis Ende Juni - 6 Wochen vor Abgabe)
+- <span v-mark="{at: 0, color: 'red', animationDuration: 200}">🤝 Feedback & Zusammenarbeit gewünscht</span>
 
 <PageNumber/>
 
