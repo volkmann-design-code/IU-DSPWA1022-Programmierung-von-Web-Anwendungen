@@ -34,4 +34,19 @@ layout: section
   />
 </div>
 
+<div class="absolute top right-[23.7rem] flex flex-col gap-4">
+  <Card
+    v-click
+    title="👷 Praxisteil I"
+    highlight
+    description="IDE-Einrichtung, Coding-Challenges"
+  />
+</div>
+
 <PageNumber/>
+
+<!--
+- Heute
+  - Zuerst Praxisteil
+  - Später erster Teil OOP / Java
+-->

@@ -91,6 +91,14 @@ src: ./slides/00600-goals-intro.md
 ---
 
 ---
+src: ./slides/00610-coding-session-intro.md
+---
+
+---
+src: ./slides/00612-coding-session-repo-overview.md
+---
+
+---
 src: ./slides/00700-oop-intro.md
 ---
 
