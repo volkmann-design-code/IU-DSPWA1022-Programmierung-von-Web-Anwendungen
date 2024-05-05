@@ -1,0 +1,6 @@
+{
+    "java.project.sourcePaths": ["packages/Challenges/src"],
+    "java.project.referencedLibraries": [
+        "packages/Challenges/lib/**/*.jar"
+    ]
+}
