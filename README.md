@@ -1,11 +1,5 @@
 # DSPWA1022 - Programmierung von Webanwendungen
 
-Publicly avilable at [slides.volkmann.dev/iu/dspwa1022](https://slides.volkmann.dev/iu/dspwa1022)
+Companion repo for the course.
 
-## Getting started
-
-This project is based on [Slidev](https://sli.dev/) and uses [bun](https://bun.sh/).
-
-- `bun install`
-- `bun run dev`
-- visit http://localhost:3030
+- View the slides at [slides.volkmann.dev/iu/dspwa1022](https://slides.volkmann.dev/iu/dspwa1022)

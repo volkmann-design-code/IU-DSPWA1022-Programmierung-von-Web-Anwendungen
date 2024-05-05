@@ -1,0 +1,36 @@
+{
+  "name": "iu-dspwa1022",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "slidev build",
+    "start": "bun run dev",
+    "dev": "slidev --open",
+    "export": "slidev export",
+    "prepare": "husky",
+    "format": "bun prettier . --write"
+  },
+  "dependencies": {
+    "@iconify-json/devicon": "^1.1.40",
+    "@iconify-json/simple-icons": "^1.1.101",
+    "@slidev/cli": "^0.49.0-beta.4",
+    "@slidev/theme-apple-basic": "^0.25.1",
+    "@slidev/theme-default": "latest",
+    "@slidev/theme-seriph": "latest",
+    "@unocss/preset-icons": "^0.59.4",
+    "shiki": "^1.4.0",
+    "vue": "^3.4.22"
+  },
+  "devDependencies": {
+    "@angular/common": "^17.3.7",
+    "@angular/core": "^17.3.7",
+    "@slidev/types": "^0.49.0-beta.5",
+    "husky": "^9.0.11",
+    "lint-staged": "^15.2.2",
+    "prettier": "^3.2.5",
+    "prettier-plugin-slidev": "^1.0.5"
+  },
+  "lint-staged": {
+    "**/*": "prettier --write --ignore-unknown"
+  }
+}
