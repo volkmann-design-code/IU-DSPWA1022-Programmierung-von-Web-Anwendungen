@@ -17,4 +17,4 @@ Dieses Projekt enthält einige Java-Coding-Challenges. Es ist wie folgt aufgebau
 
 - Das Ziel ist es, euch wieder mit dem Programmieren in Java vertraut zu machen und einige grundlegende Aspekte der Sprache und des Objektorientierten Programmierens zu wiederholen
 - Geht daher die fehlschlagenden Tests durch und behebt den Quell-Code (nicht den Test-Code), damit alle Tests erfolgreich werden
-- Einige Stellen, an denen ihr aktiv werden müsst, sind mit `TODO` gekennzeichnet
+- Einige Stellen, an denen ihr aktiv werden müsst, sind mit `TODO` gekennzeichnet - bei anderen musst du selbst die Fehler suchen und finden
