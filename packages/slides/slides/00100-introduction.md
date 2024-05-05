@@ -29,3 +29,14 @@ layout: default
 </div>
 
 <PageNumber/>
+
+<!--
+**Beispiel-Projekte**
+- LW-CRM (+ Flutter App)
+- Baustellen-Planer
+- Webseiten (iPlan, FSK)
+- GTIC
+- Baumschule
+- RIMS
+- ...
+-->
