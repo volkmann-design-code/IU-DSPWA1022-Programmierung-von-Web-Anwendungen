@@ -29,3 +29,8 @@ const invalidCall = new Call("oops", "+49...", "+49...");
 </div>
 
 <PageNumber/>
+
+<!--
+- Was unterscheidet JS und TS?
+- Welche Vor- und Nachteile hat es?
+-->

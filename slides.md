@@ -47,11 +47,31 @@ src: ./slides/00521-knowledge-challenge-ts.md
 ---
 
 ---
+src: ./slides/00522-knowledge-challenge-jquery.md
+---
+
+---
+src: ./slides/00523-knowledge-challenge-react.md
+---
+
+---
+src: ./slides/00524-knowledge-challenge-angular.md
+---
+
+---
+src: ./slides/00525-knowledge-challenge-svelte.md
+---
+
+---
 src: ./slides/00530-knowledge-challenge-java.md
 ---
 
 ---
 src: ./slides/00540-knowledge-challenge-sql.md
+---
+
+---
+src: ./slides/00541-knowledge-challenge-sql-select.md
 ---
 
 ---

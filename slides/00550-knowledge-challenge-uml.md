@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<ChallengeHeader index="7"/>
+<ChallengeHeader index="12"/>
 
 ```mermaid
 classDiagram

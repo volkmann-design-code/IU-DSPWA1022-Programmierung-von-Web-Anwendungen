@@ -3,9 +3,11 @@ layout: section
 ---
 
 <EmojiTitle title="Wo steht ihr?" emoji="🤷‍♂️">
-Vorerfahrungen aus Studium und Unternehmen?
+In welchen Unternehmen arbeitet ihr?
 
-Welche Technologien & Frameworks? Private Projekte?{.text-muted}
+Welche Programmier-Erfahrungen habt ihr bereits gesammelt (Privat/Unternehmen/Uni)?
+
+Welche Technologien & Frameworks nutzt ihr?
 </EmojiTitle>
 
 <PageNumber/>
