@@ -1,4 +1,4 @@
-package challenges;
+package challenges.Shapes;
 
 public class Square extends Rectangle {
 

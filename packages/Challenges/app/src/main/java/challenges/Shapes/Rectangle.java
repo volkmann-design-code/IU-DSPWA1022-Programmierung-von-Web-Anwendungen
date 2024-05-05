@@ -1,4 +1,4 @@
-package challenges;
+package challenges.Shapes;
 
 public class Rectangle implements Shape {
 
