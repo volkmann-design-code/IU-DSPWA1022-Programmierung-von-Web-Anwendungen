@@ -6,9 +6,6 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
-import challenges.lib.Rectangle;
-import challenges.lib.Square;
-
 public class SquareTest {
 
     @Test

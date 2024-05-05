@@ -1,4 +1,4 @@
-package challenges.lib;
+package challenges;
 
 public interface Shape {
     double getArea();

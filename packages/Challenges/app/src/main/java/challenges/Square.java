@@ -1,4 +1,4 @@
-package challenges.lib;
+package challenges;
 
 public class Square extends Rectangle {
 
