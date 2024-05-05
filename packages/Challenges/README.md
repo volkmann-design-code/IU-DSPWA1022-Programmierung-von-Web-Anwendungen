@@ -8,6 +8,7 @@ Dieses Projekt enthält einige Java-Coding-Challenges. Es ist wie folgt aufgebau
 
 ## Setup und Projektstart
 
+- Öffne zunächst [eine beliebige Java-Datei](./app/src/main/java/challenges/App.java), um die Java-Extension in VS Code zu aktivieren
 - Öffne in der linken Seitenleiste das _Test_-Symbol
 - Der Eintrag `app` sollte erscheinen
 - Klicke auf _Play_ oder _Aktualisieren_, um die Tests laufen zu lassen
