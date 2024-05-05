@@ -12,7 +12,7 @@ layout: default
 <div class="col-span-5">
 
 - Ebenfalls noch in Preview: [Implizite Hauptklasse / Main-Methode](https://docs.oracle.com/en/java/javase/22/language/implicitly-declared-classes-and-instance-main-methods.html#GUID-35544A22-61AB-4928-99BB-A9DD1CA062FF)
-- Erfordert nicht zwingend die Nutzung einer übergordneten `public class` und einer `public static void main(String[] args)`-Methode
+- Erfordert nicht zwingend die Nutzung einer übergeordneten `public class` und einer `public static void main(String[] args)`-Methode
 - Erzeugt eine _implizite_ Hauptklasse
 - Reduziert Boilderplate-Code und vereinfachst EInstieg in die Sprache
 

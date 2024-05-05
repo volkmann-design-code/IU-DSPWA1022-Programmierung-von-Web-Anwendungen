@@ -13,7 +13,7 @@ layout: default
 
 - Seit Java 21 gibt es [_Pattern Matching_ in `switch` Statements/Expressions](https://docs.oracle.com/en/java/javase/21/language/pattern-matching-switch-expressions-and-statements.html#GUID-E69EEA63-E204-41B4-AA7F-D58B26A3B232)
 - Hiermit können beispielsweise `instanceof`-Prüfungen werden
-- Mit `when` können zusätzliche Bedinugnen geprüft werden
+- Mit `when` können zusätzliche Bedingungen geprüft werden
 
 </div>
 <div class="col-span-7">
