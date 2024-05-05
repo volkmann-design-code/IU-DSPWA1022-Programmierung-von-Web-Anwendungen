@@ -34,6 +34,12 @@ public class AnimalTest {
     }
 
     @Test
+    @DisplayName("Flug-Test (5)")
+    void canFly5() {
+        assertTrue(Animal.canFly(new Dove()));
+    }
+
+    @Test
     @DisplayName("Schwimm-Test (1)")
     void canSwim1() {
         assertTrue(Animal.canSwim(new Whale()));
