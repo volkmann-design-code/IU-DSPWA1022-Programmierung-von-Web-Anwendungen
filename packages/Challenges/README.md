@@ -2,8 +2,8 @@
 
 Dieses Projekt enthält einige Java-Coding-Challenges. Es ist wie folgt aufgebaut:
 
-- In `src/main/java/challenges` findet ihr den Quell-Code, den ihr bearbeiten sollt
-- In `src/test/java/challenges` finden sich die Tests, die automatisch euren Code prüfen
+- In [`app/src/main/java/challenges`](./app/src/main/java/challenges) findet ihr den Quell-Code, den ihr bearbeiten sollt
+- In [`app/src/test/java/challenges`](./app/src/test/java/challenges) finden sich die Tests, die automatisch euren Code prüfen
 - Wir nutzen die Java Integration von VS-Code und können daher alle anderen vorhandenen Dateien vorerst ignorieren
 
 ## Setup und Projektstart
