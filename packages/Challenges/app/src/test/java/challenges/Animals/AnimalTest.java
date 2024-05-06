@@ -24,7 +24,7 @@ public class AnimalTest {
     @Test
     @DisplayName("Flug-Test (3)")
     void canFly3() {
-        assertTrue(Animal.canFly(new Cow()));
+        assertFalse(Animal.canFly(new Cow()));
     }
 
     @Test
