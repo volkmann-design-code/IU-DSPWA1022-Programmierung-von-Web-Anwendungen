@@ -67,11 +67,11 @@ public class ShapeUtilsTest {
         shapes.add(new Circle(2));
         shapes.add(new Circle(2));
         shapes.add(new Circle(2));
-        assertEquals(ShapeUtils.countCircles(shapes), 6);
+        assertEquals(ShapeUtils.countCircles(shapes), 5);
     }
 
     @Test
-    @DisplayName("Größte Flache (1)")
+    @DisplayName("Größte Fläche (1)")
     void largestArea1() {
         final var shapes = new ArrayList<Shape>();
 
@@ -87,7 +87,7 @@ public class ShapeUtilsTest {
     }
 
     @Test
-    @DisplayName("Größte Flache (2)")
+    @DisplayName("Größte Fläche (2)")
     void largestArea2() {
         final var shapes = new ArrayList<Shape>();
 
@@ -101,16 +101,20 @@ public class ShapeUtilsTest {
     }
 
     @Test
-    @DisplayName("Größte Flache (3)")
+    @DisplayName("Größte Fläche (3)")
     void largestArea3() {
         final var shapes = new ArrayList<Shape>();
 
         var square = new Square(10);
         var rect = new Rectangle(2, 5);
+        var rect2 = new Rectangle(12, 12);
+        var rect3 = new Rectangle(12, 12);
 
         shapes.add(rect);
         shapes.add(square);
+        shapes.add(rect3);
+        shapes.add(rect2);
 
-        assertEquals(ShapeUtils.findLargestArea(shapes), rect);
+        assertEquals(ShapeUtils.findLargestArea(shapes), rect3);
     }
 }

@@ -17,8 +17,8 @@ public final class ShapeUtils {
     }
 
     /**
-     * Wenn mehrere Formen die gleiche Fläche haben, wird die erste Form
-     * zurückgegeben.
+     * Wenn mehrere Formen die gleiche Fläche haben, soll die erste gefundende Form
+     * zurückgegeben werden.
      */
     public static Shape findLargestArea(List<Shape> shapes) {
         return shapes.get(0);
