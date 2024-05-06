@@ -54,22 +54,22 @@ public class BankTest {
 
     @Test
     void closeAccountWithNegativeBalance() {
-        jane.withdraw(100);
+        Account.dangerouslySetBalance(jane, -100);
         assertThrows(InsufficientFundsException.class, () -> bank.closeAccount(jane));
     }
 
     @Test
     void closeAccountWithNegativeBalanceAllowed() {
-        allowNegativeAccount.withdraw(100);
+        Account.dangerouslySetBalance(allowNegativeAccount, -100);
         assertThrows(InsufficientFundsException.class, () -> bank.closeAccount(allowNegativeAccount));
     }
 
     @Test
-    void withdraw() {
+    void withdraw() throws InsufficientFundsException {
         jane.deposit(100);
         jane.withdraw(50);
 
-        assertEquals(jane.balance, 50);
+        assertEquals(jane.getBalance(), 50);
     }
 
     @Test
@@ -80,31 +80,31 @@ public class BankTest {
     }
 
     @Test
-    void withdrawIntoNegative() {
+    void withdrawIntoNegative() throws InsufficientFundsException {
         allowNegativeAccount.withdraw(100);
-        assertEquals(allowNegativeAccount.balance, -100);
+        assertEquals(allowNegativeAccount.getBalance(), -100);
     }
 
     @Test
-    void transferMoney() {
+    void transferMoney() throws InsufficientFundsException {
         jane.deposit(100);
 
         assertEquals(bank.totalManagedMoney(), 100);
-        assertEquals(jane.balance, 100);
-        assertEquals(john.balance, 0);
+        assertEquals(jane.getBalance(), 100);
+        assertEquals(john.getBalance(), 0);
 
         bank.transfer(jane, john, 50);
 
         assertEquals(bank.totalManagedMoney(), 100);
-        assertEquals(jane.balance, 50);
-        assertEquals(john.balance, 50);
+        assertEquals(jane.getBalance(), 50);
+        assertEquals(john.getBalance(), 50);
     }
 
     @Test
     void transferMoneyFail() {
         assertEquals(bank.totalManagedMoney(), 0);
-        assertEquals(jane.balance, 0);
-        assertEquals(john.balance, 0);
+        assertEquals(jane.getBalance(), 0);
+        assertEquals(john.getBalance(), 0);
 
         assertThrows(InsufficientFundsException.class, () -> bank.transfer(jane, john, 50));
     }
@@ -115,7 +115,7 @@ public class BankTest {
         assertTrue(jane.allowedToWithdraw(100));
         assertFalse(jane.allowedToWithdraw(101));
 
-        assertEquals(allowNegativeAccount.balance, 0);
+        assertEquals(allowNegativeAccount.getBalance(), 0);
         assertTrue(allowNegativeAccount.allowedToWithdraw(100));
     }
 }

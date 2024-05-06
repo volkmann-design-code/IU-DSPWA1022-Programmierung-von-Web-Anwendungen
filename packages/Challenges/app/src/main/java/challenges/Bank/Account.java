@@ -5,7 +5,11 @@ public class Account {
     final String id;
     final String owner;
     final boolean allowNegativeBalance;
-    double balance = 0;
+    private double balance = 0;
+
+    protected static void dangerouslySetBalance(Account account, double balance) {
+        account.balance = balance;
+    }
 
     public Account(
             String id,
@@ -14,6 +18,10 @@ public class Account {
         this.id = id;
         this.owner = owner;
         this.allowNegativeBalance = allowNegativeBalance;
+    }
+
+    public double getBalance() {
+        return balance;
     }
 
     public void deposit(double amount) {
