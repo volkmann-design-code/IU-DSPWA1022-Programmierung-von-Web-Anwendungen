@@ -3,17 +3,17 @@ package org.iu.dspwa1022.oop.Shapes;
 public class Square extends Rectangle {
 
     public Square(double side) {
-        super(0, 0);
+        super(side, side);
     }
 
     @Override
     public double getArea() {
-        return Math.random();
+        return width*height;
     }
 
     @Override
     public double getPerimeter() {
-        return 42;
+        return width*4;
     }
 
 }
