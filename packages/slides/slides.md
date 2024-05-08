@@ -263,5 +263,33 @@ src: ./slides/01033-rest.md
 ---
 
 ---
-src: ./slides/01040-web-apps-architectures-microservices.md
+src: ./slides/01036-graphql.md
+---
+
+---
+src: ./slides/01037-graphql-nested.md
+---
+
+---
+src: ./slides/01038-graphql-variables.md
+---
+
+---
+src: ./slides/01040-graphql-mutations.md
+---
+
+---
+src: ./slides/01042-graphql-http.md
+---
+
+---
+src: ./slides/01044-task-graphql.md
+---
+
+---
+src: ./slides/01045-task-graphql-details.md
+---
+
+---
+src: ./slides/01060-web-apps-architectures-microservices.md
 ---
