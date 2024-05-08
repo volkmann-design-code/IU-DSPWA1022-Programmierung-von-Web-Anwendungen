@@ -247,5 +247,17 @@ src: ./slides/01018-web-apps-client-server-4.md
 ---
 
 ---
-src: ./slides/01030-web-apps-architectures-microservices.md
+src: ./slides/01030-web-apps-architectures-request-response.md
+---
+
+---
+src: ./slides/01031-task-rest-api.md
+---
+
+---
+src: ./slides/01032-task-rest-api-details.md
+---
+
+---
+src: ./slides/01040-web-apps-architectures-microservices.md
 ---

@@ -2,5 +2,6 @@
     "java.project.sourcePaths": ["packages/Challenges/src"],
     "java.project.referencedLibraries": [
         "packages/Challenges/lib/**/*.jar"
-    ]
+    ],
+    "postman.telemetry.enabled": false
 }

@@ -20,11 +20,11 @@ layout: default
 ```mermaid
 %%{init: {"flowchart": {"htmlLabels": false}} }%%
 flowchart TD
-    c(Client)
+    c(🙋‍♀️ Client)
     s{{"`**Server**
     API, Documents Service, Notifications, ...`"}}
 
-    c <--> s
+    c <-->|HTTP| s
 ```
 
 <Figcaption>Beispiel für die monolithische Architektur</Figcaption>
@@ -35,14 +35,15 @@ flowchart TD
 ```mermaid
 %%{init: {"flowchart": {"htmlLabels": false}} }%%
 flowchart TD
-    c(Client)
+    c(🙋‍♀️ Client)
     capi{{Customer API}}
     docs{{Documents Service}}
     notifications{{Notifications}}
 
-    c <--> capi
-    c <--> docs
-    capi <--> notifications
+    c <-->|HTTP| capi
+    c <-->|HTTP| docs
+    capi <-.-> docs
+    capi <-.-> notifications
 ```
 
 <Figcaption>Beispiel für eine Microservice-Architektur</Figcaption>

@@ -34,7 +34,7 @@ layout: section
   />
 </div>
 
-<div class="absolute top right-[28.3rem] flex flex-col gap-4">
+<div class="absolute top right-[28.6rem] flex flex-col gap-4">
   <Card
     v-click
     title="👷 Praxisteil I"
