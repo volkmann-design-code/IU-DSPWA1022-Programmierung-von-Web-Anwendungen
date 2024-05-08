@@ -263,6 +263,14 @@ src: ./slides/01033-rest.md
 ---
 
 ---
+src: ./slides/01034-rest-params.md
+---
+
+---
+src: ./slides/01035-rest-examples.md
+---
+
+---
 src: ./slides/01036-graphql.md
 ---
 
@@ -280,6 +288,10 @@ src: ./slides/01040-graphql-mutations.md
 
 ---
 src: ./slides/01042-graphql-http.md
+---
+
+---
+src: ./slides/01043-graphql-examples.md
 ---
 
 ---
