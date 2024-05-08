@@ -217,3 +217,35 @@ src: ./slides/00916-java-new-features-8-string-templates.md
 ---
 src: ./slides/00918-java-new-features-9-implicit-classes-and-main.md
 ---
+
+---
+src: ./slides/01000-web-apps-intro.md
+---
+
+---
+src: ./slides/01001-web-apps-motivation.md
+---
+
+---
+src: ./slides/01002-web-apps-definitions.md
+---
+
+---
+src: ./slides/01012-web-apps-client-server-1.md
+---
+
+---
+src: ./slides/01014-web-apps-client-server-2.md
+---
+
+---
+src: ./slides/01016-web-apps-client-server-3.md
+---
+
+---
+src: ./slides/01018-web-apps-client-server-4.md
+---
+
+---
+src: ./slides/01030-web-apps-architectures-microservices.md
+---
