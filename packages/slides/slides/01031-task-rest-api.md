@@ -6,8 +6,6 @@ layout: section
 Request-Response
 
 REST
-
-GRAPHQL
 </EmojiTitle>
 
 <div class="absolute top right flex flex-col gap-4">
