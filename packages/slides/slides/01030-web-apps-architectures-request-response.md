@@ -6,7 +6,7 @@ layout: default
     text="🌍 Grundlagen betrieblicher Webanwendungen"
 />
 
-# Architekturen <SubHeading text="Request-Response"/>
+# Request-Response
 
 <div class="grid grid-cols-12 gap-6">
 <div class="col-span-6">

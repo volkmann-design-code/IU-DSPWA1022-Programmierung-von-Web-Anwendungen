@@ -303,5 +303,29 @@ src: ./slides/01045-task-graphql-details.md
 ---
 
 ---
+src: ./slides/01055-web-apps-architectures.md
+---
+
+---
+src: ./slides/01056-web-apps-architectures-monolith.md
+---
+
+---
 src: ./slides/01060-web-apps-architectures-microservices.md
+---
+
+---
+src: ./slides/01062-web-apps-architectures-event-driven.md
+---
+
+---
+src: ./slides/01064-web-apps-architectures-serverless.md
+---
+
+---
+src: ./slides/01070-task-architectures.md
+---
+
+---
+src: ./slides/01072-web-apps-summary.md
 ---

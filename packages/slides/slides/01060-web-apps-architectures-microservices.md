@@ -6,28 +6,20 @@ layout: default
     text="🌍 Grundlagen betrieblicher Webanwendungen"
 />
 
-# Architekturen <SubHeading text="Microservices"/>
+# Microservices <SubHeading text="Architekturen"/>
 
 <div class="grid grid-cols-12 gap-6">
-<div class="col-span-12">
-
-- Die bisherigen Beispiele zeigten ein _monolithisches Modell_, bei dem es _einen_ Server gibt, der sämtliche Aufgaben bewältigt
-- Alternativ dazu kann man die Bestandteile einer Anwendung aufteilen, dann spricht man von _Microservices_
-
-</div>
 <div class="col-span-6">
 
-```mermaid
-%%{init: {"flowchart": {"htmlLabels": false}} }%%
-flowchart TD
-    c(🙋‍♀️ Client)
-    s{{"`**Server**
-    API, Documents Service, Notifications, ...`"}}
-
-    c <-->|HTTP| s
-```
-
-<Figcaption>Beispiel für die monolithische Architektur</Figcaption>
+- Alternativ kann man die verschiedenen Bestandteile der Anwendung aufteilen
+- Vorteile
+  - Services individuell skalierbar (horizontal & vertikal)
+  - Modularität / Fehlerisolation
+  - Technologische Unabhängigkeit
+- Nachteile
+  - Komplexeres Setup (Repository, Deployment, Hosting, Netzwerk)
+  - Integrationstests unter Umständen schwierig
+  - Komplexeres Loggng/Tracing
 
 </div>
 <div class="col-span-6">
@@ -38,12 +30,15 @@ flowchart TD
     c(🙋‍♀️ Client)
     capi{{Customer API}}
     docs{{Documents Service}}
-    notifications{{Notifications}}
+    notifications{{Notifications Service}}
+    api{{External APIs}}
 
-    c <-->|HTTP| capi
-    c <-->|HTTP| docs
-    capi <-.-> docs
+    c <--> capi
+    c <--> docs
     capi <-.-> notifications
+    capi <-..-> api
+    notifications <-..-> api
+    docs <-..-> api
 ```
 
 <Figcaption>Beispiel für eine Microservice-Architektur</Figcaption>
