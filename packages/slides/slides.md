@@ -349,3 +349,15 @@ src: ./slides/01104-java-web-tech-jsp.md
 ---
 src: ./slides/01105-java-web-tech-jsp-parameters.md
 ---
+
+---
+src: ./slides/01110-java-web-tech-spring.md
+---
+
+---
+src: ./slides/01115-task-spring-mvc.md
+---
+
+---
+src: ./slides/01116-task-spring-mvc-details.md
+---
