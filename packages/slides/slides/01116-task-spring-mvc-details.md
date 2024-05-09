@@ -13,7 +13,7 @@ layout: default
 
 - Öffne deinen Fork des [Projekt-Repos](https://github.com/volkmann-design-code/IU-DSPWA1022-Programmierung-von-Web-Anwendungen) und synchronisiere die Änderungen
 - Lade die aktuellen Änderungen via Github Desktop auf dein Gerät
-- Öffne das [MVC](https://github.com/volkmann-design-code/IU-DSPWA1022-Programmierung-von-Web-Anwendungen/tree/main/packages/MVC) Package in VS Code und folge den Anweisungen in der README
+- Öffne das [`springmvc`](https://github.com/volkmann-design-code/IU-DSPWA1022-Programmierung-von-Web-Anwendungen/tree/main/packages/dspwa1022/src/main/java/org/iu/dspwa1022/springmvc) Package in VS Code und folge den Anweisungen in der README
 
 ![Github Fork Sync](/images/github-sync-fork.png){.border .max-h-40}
 
