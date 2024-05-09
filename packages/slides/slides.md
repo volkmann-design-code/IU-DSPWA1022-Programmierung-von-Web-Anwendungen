@@ -329,3 +329,23 @@ src: ./slides/01070-task-architectures.md
 ---
 src: ./slides/01072-web-apps-summary.md
 ---
+
+---
+src: ./slides/01100-java-web-tech.md
+---
+
+---
+src: ./slides/01101-java-web-tech-servlets.md
+---
+
+---
+src: ./slides/01102-java-web-tech-servlets-parameters.md
+---
+
+---
+src: ./slides/01104-java-web-tech-jsp.md
+---
+
+---
+src: ./slides/01105-java-web-tech-jsp-parameters.md
+---
