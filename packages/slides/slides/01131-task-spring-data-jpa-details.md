@@ -13,7 +13,7 @@ layout: default
 
 - Starte die [`SpringDataApp`](https://github.com/volkmann-design-code/IU-DSPWA1022-Programmierung-von-Web-Anwendungen/tree/main/packages/dspwa1022/src/main/java/org/iu/dspwa1022/springdata/SpringDataApp.java)
 - Importiere die [`jpa.postman-collection.json`](https://github.com/volkmann-design-code/IU-DSPWA1022-Programmierung-von-Web-Anwendungen/tree/main/packages/resources/postman/jpa.postman_collection.json) in deiner VS-Code Postman-Ansicht
-- Bearbeite die Aufgaben in der [`README`](https://github.com/volkmann-design-code/IU-DSPWA1022-Programmierung-von-Web-Anwendungen/tree/main/packages/dspwa1022/src/main/java/org/iu/dspwa1022/springdata/README.md) (15min)
+- Bearbeite die Aufgaben (Teil 1) in der [`README`](https://github.com/volkmann-design-code/IU-DSPWA1022-Programmierung-von-Web-Anwendungen/tree/main/packages/dspwa1022/src/main/java/org/iu/dspwa1022/springdata/README.md) (15min)
 
 </div>
 <div class="col-span-12">
