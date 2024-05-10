@@ -393,3 +393,19 @@ src: ./slides/01130-task-spring-data-jpa.md
 ---
 src: ./slides/01131-task-spring-data-jpa-details.md
 ---
+
+---
+src: ./slides/01134-java-web-tech-spring-data-and-mvc.md
+---
+
+---
+src: ./slides/01135-java-web-tech-spring-data-and-mvc-2.md
+---
+
+---
+src: ./slides/01140-task-spring-data-jpa-mvc.md
+---
+
+---
+src: ./slides/01141-task-spring-data-jpa-mvc-details.md
+---
