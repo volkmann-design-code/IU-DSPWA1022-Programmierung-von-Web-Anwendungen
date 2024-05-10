@@ -12,6 +12,8 @@
 
 ## Aufgaben
 
+> Verwende hier nur die `Person`-Klasse, den `PersonController` und das `PersonRepository`!
+
 - Nutze den `GET /persons`-Endpunkt, um die vorhandenen Personen abzurufen. Was ist das Ergebnis?
 - Leg einige Personen mittels `POST /persons` an
 - Schau in die Konsole/die Logs der Anwendung. Was wird dort hinter `Hibernate:` ausgegeben?

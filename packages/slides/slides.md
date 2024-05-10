@@ -409,3 +409,23 @@ src: ./slides/01140-task-spring-data-jpa-mvc.md
 ---
 src: ./slides/01141-task-spring-data-jpa-mvc-details.md
 ---
+
+---
+src: ./slides/01150-java-web-tech-spring-data-relations.md
+---
+
+---
+src: ./slides/01152-java-web-tech-spring-data-relations-1-to-1.md
+---
+
+---
+src: ./slides/01154-java-web-tech-spring-data-relations-1-to-n.md
+---
+
+---
+src: ./slides/01156-java-web-tech-spring-data-relations-n-to-m.md
+---
+
+---
+src: ./slides/01158-demo-spring-data-relations.md
+---
