@@ -369,3 +369,27 @@ src: ./slides/01117-task-spring-mvc-summary.md
 ---
 src: ./slides/01120-java-web-tech-spring-forms.md
 ---
+
+---
+src: ./slides/01121-demo-spring-mvc-forms.md
+---
+
+---
+src: ./slides/01124-java-web-tech-spring-data.md
+---
+
+---
+src: ./slides/01125-java-web-tech-spring-data-jpa-entity.md
+---
+
+---
+src: ./slides/01127-java-web-tech-spring-data-jpa-repository.md
+---
+
+---
+src: ./slides/01130-task-spring-data-jpa.md
+---
+
+---
+src: ./slides/01131-task-spring-data-jpa-details.md
+---

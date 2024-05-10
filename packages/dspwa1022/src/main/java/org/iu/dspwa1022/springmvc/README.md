@@ -13,9 +13,11 @@
 
 ![Beenden der Spring App im Terminal](../../../../../../docs/images/spring-console-stop-app.png)
 
-## Aufgaben (Teil 1)
+## Aufgaben
 
-- Mach dich zunächst mit dem vorhandenen [GreetingController](./GreetingController.java), der `greeting()`-Methode und dem dagehörigen [`greeting.html`](../../../../../resources/templates/greeting.html) vertraut
+> Ignoriere beim Bearbeiten zunächst die `Comment`-Klasse, den `CommentsController` sowie die `comments*.html`-Templates
+
+- Mach dich zunächst mit dem [GreetingController](./GreetingController.java), der `greeting()`-Methode und dem dagehörigen [`greeting.html`](../../../../../resources/templates/greeting.html) vertraut
 - Passe die `greeting()`-Methode an, mach den `name`-Parameter `required` und entferne das `defaultValue`.
   - Was passiert nun, wenn du den Endpunkt aufrufst?
   - Was passiert, wenn der Parameter nicht erforderlich ist _und_ kein Standardwert vorhanden ist?

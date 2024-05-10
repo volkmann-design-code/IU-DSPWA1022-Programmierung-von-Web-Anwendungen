@@ -15,6 +15,10 @@ layout: section
     title="🫘 Spring MVC"
     description="Einführung des Spring Frameworks"
   />
+  <Card
+    title="💽 Spring Data"
+    description="Nutzen von Datenbanken"
+  />
 </div>
 
 <PageNumber/>
