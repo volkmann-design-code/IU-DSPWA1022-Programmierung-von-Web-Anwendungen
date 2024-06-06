@@ -4,11 +4,17 @@
 
 ## Starten & Stoppen der Anwendung
 
-- Öffne die Klasse [`SpringDataApp.java`](./SpringDataApp.java) und starte die `main()`-Meth
+- Öffne die Klasse [`SpringDataApp.java`](./SpringDataApp.java) und starte die `main()`-Methode
 
-> Immer, wenn du Änderungen an der Anwendung vornimmst, musst du die Anwendung stopppen und neu starten
+> Immer, wenn du Änderungen an der Anwendung vornimmst, musst du die Anwendung stopppen und neu starten. Das geht entweder über die _Mülltonne_ in der Konsole oder über die Tool-Leiste am oberen Rand von VS Code
+
+_Variante 1: Terminal_
 
 ![Beenden der Spring App im Terminal](../../../../../../docs/images/spring-console-stop-app.png)
+
+_Variante 2: Tool-Leiste_
+
+![Beenden der Spring App über die Tool-Leiste](../../../../../../docs/images/spring-vscode-restart-app.png)
 
 ## Aufgaben (Teil 1)
 
