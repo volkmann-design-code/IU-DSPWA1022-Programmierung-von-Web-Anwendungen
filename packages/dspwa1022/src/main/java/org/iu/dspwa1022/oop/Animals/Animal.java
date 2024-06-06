@@ -18,15 +18,24 @@ public abstract class Animal {
     public abstract void makeSound();
 
     public static boolean canSwim(Animal animal) {
-        return animal.species.equals("Fish");
+        return (animal instanceof Fish) || (animal instanceof Whale) || (animal instanceof Penguin);
     }
 
     public static boolean canFly(Animal animal) {
+        if (animal instanceof Bird) {
+            Bird bird = (Bird) animal;
+            return !(bird instanceof Penguin);
+        }
         return false;
     }
 
     public static int amountOfLegs(Animal animal) {
-        return 4;
+        if (animal instanceof Bird) {
+            return 2;   
+        } else if (animal instanceof Fish) {
+            return 0;
+        } else{
+        return 4;}
     }
 
 }
