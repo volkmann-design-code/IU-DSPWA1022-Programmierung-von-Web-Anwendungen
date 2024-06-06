@@ -1,5 +1,7 @@
 package org.iu.dspwa1022.store.model;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.UUID;
 
 import org.hibernate.annotations.GenericGenerator;
@@ -8,11 +10,12 @@ import org.hibernate.annotations.Parameter;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.Id;
+import jakarta.persistence.OneToMany;
 import jakarta.persistence.Table;
 
 @Entity
-@Table(schema = "dspwa1022", name = "product")
-public class Product {
+@Table(schema = "dspwa1022", name = "customer")
+public class Customer {
 
     @Id
     @GeneratedValue(generator = "UUID")
@@ -23,7 +26,10 @@ public class Product {
 
     private String name;
 
-    private float price;
+    private String email;
+
+    @OneToMany
+    private List<Order> orders = new ArrayList<>();
 
     public UUID getId() {
         return id;
@@ -41,12 +47,12 @@ public class Product {
         this.name = name;
     }
 
-    public float getPrice() {
-        return price;
+    public String getEmail() {
+        return email;
     }
 
-    public void setPrice(float price) {
-        this.price = price;
+    public void setEmail(String email) {
+        this.email = email;
     }
 
 }
