@@ -13,7 +13,7 @@ public class Archaeopteryx extends Bird {
 
     @Override
     public void fly() {
-        final int ANCIENT_FLIGHT_CALCULATION = 1 / 0;
+        final int ANCIENT_FLIGHT_CALCULATION = 50;
         System.out.println("Archaeopteryx flies " + ANCIENT_FLIGHT_CALCULATION + " meters");
     }
 
