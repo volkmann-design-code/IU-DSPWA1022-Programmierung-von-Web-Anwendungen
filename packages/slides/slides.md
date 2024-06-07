@@ -481,3 +481,11 @@ src: ./slides/01188-db-spring-pg-connection-controllers.md
 ---
 src: ./slides/01190-demo-db-spring-pg.md
 ---
+
+---
+src: ./slides/01192-db-spring-pg-insert-data.md
+---
+
+---
+src: ./slides/01194-db-spring-pg-update-data.md
+---

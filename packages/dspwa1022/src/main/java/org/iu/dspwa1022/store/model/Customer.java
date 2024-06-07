@@ -22,7 +22,7 @@ public class Customer {
 
     private String email;
 
-    @OneToMany
+    @OneToMany(mappedBy = "customer")
     private List<Order> orders = new ArrayList<>();
 
     public UUID getId() {
