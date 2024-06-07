@@ -2,9 +2,6 @@ package org.iu.dspwa1022.store.model;
 
 import java.util.UUID;
 
-import org.hibernate.annotations.GenericGenerator;
-import org.hibernate.annotations.Parameter;
-
 import com.fasterxml.jackson.annotation.JsonProperty;
 
 import jakarta.persistence.Entity;
@@ -19,10 +16,7 @@ import jakarta.persistence.Table;
 public class OrderItem {
 
     @Id
-    @GeneratedValue(generator = "UUID")
-    @GenericGenerator(name = "UUID", strategy = "org.hibernate.id.UUIDGenerator", parameters = {
-            @Parameter(name = "uuid_gen_strategy_class", value = "org.hibernate.id.uuid.CustomVersionOneStrategy")
-    })
+    @GeneratedValue
     @JsonProperty("id")
     private UUID id;
 
