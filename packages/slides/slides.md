@@ -461,3 +461,23 @@ src: ./slides/01178-task-explore-course-db.md
 ---
 src: ./slides/01179-task-explore-course-db-details.md
 ---
+
+---
+src: ./slides/01182-db-spring-pg-connection.md
+---
+
+---
+src: ./slides/01184-db-spring-pg-connection-entities.md
+---
+
+---
+src: ./slides/01186-db-spring-pg-connection-repositories.md
+---
+
+---
+src: ./slides/01188-db-spring-pg-connection-controllers.md
+---
+
+---
+src: ./slides/01190-demo-db-spring-pg.md
+---

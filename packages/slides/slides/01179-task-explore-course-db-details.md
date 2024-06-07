@@ -18,7 +18,7 @@ layout: default
 </div>
 <div class="col-span-12">
 
-- Verbindet euch mit der Datenbank und schaut euch die vorhandnene Tabellen und Daten an
+- Verbindet euch mit der Datenbank und schaut euch die vorhandenen Tabellen und Daten an
 - Beantwortet die folgenden Fragen
   - Was hat John am 04.04. gekauft? Welche Artikel und wie viel hat er ausgegeben?
   - Wie viele Bestellungen gab es im Mai? Welche Kunden haben bestellt?
