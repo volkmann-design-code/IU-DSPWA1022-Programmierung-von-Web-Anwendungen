@@ -437,3 +437,27 @@ src: ./slides/01160-task-spring-data-relations.md
 ---
 src: ./slides/01161-task-spring-data-relations-details.md
 ---
+
+---
+src: ./slides/01170-db-intro.md
+---
+
+---
+src: ./slides/01172-db-basics.md
+---
+
+---
+src: ./slides/01173-db-basics-1-sql.md
+---
+
+---
+src: ./slides/01174-db-basics-2.md
+---
+
+---
+src: ./slides/01178-task-explore-course-db.md
+---
+
+---
+src: ./slides/01179-task-explore-course-db-details.md
+---
