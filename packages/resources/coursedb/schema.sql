@@ -25,7 +25,7 @@ drop table if exists dspwa1022.product;
 
 create table dspwa1022.product (
     id uuid primary key default gen_random_uuid (),
-    created_at timestamp not null default now(),
+    created_at timestamptz not null default now(),
     name text not null,
     price float not null
 );
@@ -34,7 +34,7 @@ drop table if exists dspwa1022.customer;
 
 create table dspwa1022.customer (
     id uuid primary key default gen_random_uuid (),
-    created_at timestamp not null default now(),
+    created_at timestamptz not null default now(),
     name text not null,
     email text not null
 );
@@ -44,14 +44,14 @@ drop table if exists dspwa1022.order;
 create table dspwa1022.order (
     id uuid primary key default gen_random_uuid (),
     customer uuid not null references dspwa1022.customer,
-    created_at timestamp not null default now()
+    created_at timestamptz not null default now()
 );
 
 drop table if exists dspwa1022.order_item;
 
 create table dspwa1022.order_item (
     id uuid primary key default gen_random_uuid (),
-    created_at timestamp not null default now(),
+    created_at timestamptz not null default now(),
     "order" uuid not null references dspwa1022.order,
     product uuid not null references dspwa1022.product,
     quantity float not null
