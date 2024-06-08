@@ -489,3 +489,11 @@ src: ./slides/01192-db-spring-pg-insert-data.md
 ---
 src: ./slides/01194-db-spring-pg-update-data.md
 ---
+
+---
+src: ./slides/01196-task-db-spring-pg-write-data.md
+---
+
+---
+src: ./slides/01197-task-db-spring-pg-write-data-details.md
+---

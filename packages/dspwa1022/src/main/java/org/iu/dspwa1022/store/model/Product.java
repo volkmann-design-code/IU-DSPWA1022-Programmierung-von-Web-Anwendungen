@@ -17,7 +17,16 @@ public class Product {
 
     private String name;
 
-    private float price;
+    // Use Float instead of float to allow null values
+    private Float price;
+
+    public Float getPrice() {
+        return price;
+    }
+
+    public void setPrice(Float price) {
+        this.price = price;
+    }
 
     public UUID getId() {
         return id;
@@ -33,14 +42,6 @@ public class Product {
 
     public void setName(String name) {
         this.name = name;
-    }
-
-    public float getPrice() {
-        return price;
-    }
-
-    public void setPrice(float price) {
-        this.price = price;
     }
 
 }

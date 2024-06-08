@@ -4,7 +4,8 @@ import java.util.List;
 import java.util.UUID;
 
 import org.iu.dspwa1022.store.model.Customer;
-import org.iu.dspwa1022.store.repositories.CustomerRepository;
+import org.iu.dspwa1022.store.model.Product;
+import org.iu.dspwa1022.store.repositories.ProductRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.PatchMapping;
@@ -17,41 +18,41 @@ import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.server.ResponseStatusException;
 
 @RestController
-@RequestMapping("/customers")
-public class CustomerController {
+@RequestMapping("/products")
+public class ProductController {
 
     @Autowired
-    private CustomerRepository repo;
+    private ProductRepository repo;
 
     @RequestMapping
-    public List<Customer> findAll() {
+    public List<Product> findAll() {
         return repo.findAll();
     }
 
     @RequestMapping("/{id}")
-    public Customer findById(@PathVariable UUID id) {
-        return repo.findById(id).orElseThrow(() -> new ResponseStatusException(HttpStatus.NOT_FOUND));
+    public Product findById(@PathVariable UUID id) {
+        return repo.findById(id).orElse(null);
     }
 
     @PostMapping
     @ResponseStatus(HttpStatus.CREATED)
-    public Customer save(@RequestBody Customer customer) {
-        return repo.save(customer);
+    public Product save(@RequestBody Product product) {
+        return repo.save(product);
     }
 
     @PatchMapping("/{id}")
-    public Customer update(@PathVariable UUID id, @RequestBody Customer customer) {
-        final Customer existingCustomer = repo.findById(id)
+    public Product update(@PathVariable UUID id, @RequestBody Product product) {
+        final Product existing = repo.findById(id)
                 .orElseThrow(() -> new ResponseStatusException(HttpStatus.NOT_FOUND));
 
-        if (customer.getName() != null) {
-            existingCustomer.setName(customer.getName());
+        if (product.getName() != null) {
+            existing.setName(product.getName());
         }
-        if (customer.getEmail() != null) {
-            existingCustomer.setEmail(customer.getEmail());
+        if (product.getPrice() != null) {
+            existing.setPrice(product.getPrice());
         }
 
-        return repo.save(existingCustomer);
+        return repo.save(existing);
     }
 
 }
