@@ -561,3 +561,15 @@ src: ./slides/01336-express-save-data.md
 ---
 src: ./slides/01338-sql-injection.md
 ---
+
+---
+src: ./slides/01340-sql-injection-countermeasures-1.md
+---
+
+---
+src: ./slides/01342-sql-injection-countermeasures-2.md
+---
+
+---
+src: ./slides/01344-sql-injection-countermeasures-3.md
+---
