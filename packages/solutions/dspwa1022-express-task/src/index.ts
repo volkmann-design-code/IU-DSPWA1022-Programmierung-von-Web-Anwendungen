@@ -2,8 +2,11 @@ import express from "express";
 import customers from "./data/customers";
 import products from "./data/products";
 import orders from "./data/orders";
+import {query} from "./db";
 
 const app = express();
+
+app.use(express.json());
 
 /**
  * - Wir wollen perspektivisch die Kurs-Datenbank (mit Produkten, Kunden, Bestellungen) über eine Express-API bereitstellen
@@ -59,6 +62,19 @@ app.get("/orders/:id", (req, res) => {
 
 app.get("/", (req, res) => {
   res.send("Hello from Express!");
+});
+
+app.post("/customers", async (req, res) => {
+  const customer = req.body;
+  const saved = await query(`
+    insert into dspwa1022.customer (name, email)
+    values ($1, $2)
+    returning *
+  `, [
+    customer.name,
+    customer.email
+  ]);
+  res.json(saved.rows[0]);
 });
 
 const port = 3000;
