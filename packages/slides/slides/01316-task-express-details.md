@@ -7,7 +7,7 @@ layout: default
 <div class="grid grid-cols-12 gap-6">
 <div class="col-span-12">
 
-- Installiert [Bun](https://bun.sh/)
+- Installiert [Bun](https://bun.sh/) (damit führen wir JavaScript/TypeScript-Dateien aus)
 - Öffnet das [`packages/dspwa1022-express-task`](https://github.com/volkmann-design-code/IU-DSPWA1022-Programmierung-von-Web-Anwendungen/blob/main/packages/dspwa1022-express-task)-Verzeichnis in eurer IDE und im Terminal
 - Führt einmalig `bun install` aus
 - Führe dann `bun start` aus und öffne die Datei [`src/index.ts`](https://github.com/volkmann-design-code/IU-DSPWA1022-Programmierung-von-Web-Anwendungen/blob/main/packages/dspwa1022-express-task/src/index.ts)

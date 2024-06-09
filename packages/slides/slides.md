@@ -533,3 +533,23 @@ src: ./slides/01315-task-express.md
 ---
 src: ./slides/01316-task-express-details.md
 ---
+
+---
+src: ./slides/01320-express-postgres.md
+---
+
+---
+src: ./slides/01322-express-postgres-2.md
+---
+
+---
+src: ./slides/01324-express-postgres-3-env-vars.md
+---
+
+---
+src: ./slides/01330-task-express-db.md
+---
+
+---
+src: ./slides/01332-task-express-db-details.md
+---
