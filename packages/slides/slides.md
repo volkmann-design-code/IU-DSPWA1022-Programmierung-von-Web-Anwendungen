@@ -525,3 +525,11 @@ src: ./slides/01308-alternative-apis-express-view-engine.md
 ---
 src: ./slides/01310-demo-express.md
 ---
+
+---
+src: ./slides/01315-task-express.md
+---
+
+---
+src: ./slides/01316-task-express-details.md
+---
