@@ -497,3 +497,27 @@ src: ./slides/01196-task-db-spring-pg-write-data.md
 ---
 src: ./slides/01197-task-db-spring-pg-write-data-details.md
 ---
+
+---
+src: ./slides/01210-spring-outro-1.md
+---
+
+---
+src: ./slides/01300-alternative-apis.md
+---
+
+---
+src: ./slides/01302-alternative-apis-intro.md
+---
+
+---
+src: ./slides/01304-alternative-apis-express.md
+---
+
+---
+src: ./slides/01306-alternative-apis-express-post.md
+---
+
+---
+src: ./slides/01310-demo-express.md
+---
