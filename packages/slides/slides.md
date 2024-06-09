@@ -519,5 +519,9 @@ src: ./slides/01306-alternative-apis-express-post.md
 ---
 
 ---
+src: ./slides/01308-alternative-apis-express-view-engine.md
+---
+
+---
 src: ./slides/01310-demo-express.md
 ---
