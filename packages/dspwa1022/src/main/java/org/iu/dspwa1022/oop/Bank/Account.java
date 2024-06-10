@@ -28,12 +28,24 @@ public class Account {
         balance += amount;
     }
 
-    public void withdraw(double amount) {
+    public void withdraw(double amount) throws InsufficientFundsException {
+        if (!allowedToWithdraw(amount)) {
+            throw new InsufficientFundsException();
+        }
         balance -= amount;
     }
 
     public boolean allowedToWithdraw(double amount) {
-        return true;
+        if (amount < 0) {
+            return false; // Negative Beträge können nicht abgehoben werden
+        }
+        
+        if (allowNegativeBalance) {
+            return true; // Wenn negative Salden erlaubt sind, ist jede Abhebung erlaubt
+        } else {
+            return balance >= amount; // Wenn negative Salden nicht erlaubt sind, muss der Kontostand ausreichend sein
+        }
     }
+
 
 }
