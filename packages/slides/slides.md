@@ -573,3 +573,11 @@ src: ./slides/01342-sql-injection-countermeasures-2.md
 ---
 src: ./slides/01344-sql-injection-countermeasures-3.md
 ---
+
+---
+src: ./slides/01350-task-express-validation.md
+---
+
+---
+src: ./slides/01352-task-express-validation-details.md
+---
