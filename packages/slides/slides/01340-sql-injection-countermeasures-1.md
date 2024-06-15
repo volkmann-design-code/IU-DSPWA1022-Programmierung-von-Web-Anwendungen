@@ -13,7 +13,7 @@ layout: default
 </div>
 <div class="col-span-6">
 
-<Filename>app.ts</Filename>
+<Filename borderColor="var(--cm-string)">app.ts</Filename>
 
 ```js
 app.get("/bad", async (req, res) => {

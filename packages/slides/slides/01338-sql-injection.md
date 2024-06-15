@@ -13,7 +13,7 @@ layout: default
 </div>
 <div class="col-span-6">
 
-<Filename>app.ts</Filename>
+<Filename borderColor="var(--cm-string)">app.ts</Filename>
 
 ```js
 app.get("/injection", async (req, res) => {
@@ -37,7 +37,7 @@ app.get("/injection", async (req, res) => {
 fetch(
   "https://example.com/injection?" +
     new URLSearchParams({
-      whereClause: "1=1; DROP TABLE dspwa1022.customer; --",
+      whereClause: "1=1; DROP TABLE dspwa1022.customer;",
     }),
 );
 ```
