@@ -581,3 +581,15 @@ src: ./slides/01350-task-express-validation.md
 ---
 src: ./slides/01352-task-express-validation-details.md
 ---
+
+---
+src: ./slides/01360-code-organization.md
+---
+
+---
+src: ./slides/01362-code-organization-imports.md
+---
+
+---
+src: ./slides/01364-code-organization-routes.md
+---
