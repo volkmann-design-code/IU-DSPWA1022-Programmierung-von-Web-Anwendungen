@@ -14,6 +14,8 @@ layout: default
 </div>
 <div class="col-span-6">
 
+<Filename>db/index.ts</Filename>
+
 ```ts
 import pg from "pg";
 const { Pool } = pg;
@@ -33,6 +35,8 @@ export function query(text: string, params: any[]) {
 
 </div>
 <div class="col-span-6">
+
+<Filename>.env</Filename>
 
 ```sh
 DB_HOST=database.host.com

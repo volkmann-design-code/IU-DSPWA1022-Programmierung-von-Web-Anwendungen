@@ -12,6 +12,8 @@ layout: default
 </div>
 <div class="col-span-6">
 
+<Filename>index.ts</Filename>
+
 ```js
 app.post("/customers", async (req, res) => {
   const customer = req.body;

@@ -13,6 +13,8 @@ layout: default
 </div>
 <div class="col-span-6">
 
+<Filename>app.ts</Filename>
+
 ```js
 app.get("/injection", async (req, res) => {
   const result = await query(
@@ -28,6 +30,8 @@ app.get("/injection", async (req, res) => {
 
 </div>
 <div class="col-span-6">
+
+<Filename>client.js</Filename>
 
 ```js
 fetch(
