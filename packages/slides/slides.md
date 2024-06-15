@@ -593,3 +593,27 @@ src: ./slides/01362-code-organization-imports.md
 ---
 src: ./slides/01364-code-organization-routes.md
 ---
+
+---
+src: ./slides/01380-nestjs-intro.md
+---
+
+---
+src: ./slides/01382-nestjs-intro-2.md
+---
+
+---
+src: ./slides/01384-nestjs-intro-main-ts.md
+---
+
+---
+src: ./slides/01386-nestjs-intro-modules.md
+---
+
+---
+src: ./slides/01388-nestjs-intro-controllers.md
+---
+
+---
+src: ./slides/01390-nestjs-intro-services.md
+---

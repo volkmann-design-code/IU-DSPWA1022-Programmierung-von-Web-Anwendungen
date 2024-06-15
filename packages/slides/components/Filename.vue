@@ -1,6 +1,6 @@
 <template>
   <span
-    class="font-mono text-xs text-black bg-[#d5d5d5] rounded-t-[2px] pt-1 px-[6px] pb-4 block -mb-[17px] border-l-[2px]"
+    class="font-mono text-xs text-black bg-[#d5d5d5] pt-1 px-[6px] pb-4 block -mb-[17px] border-l-[2px] rounded-tr"
     :style="{
       borderColor: borderColor,
     }"
