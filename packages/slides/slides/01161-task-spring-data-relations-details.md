@@ -14,7 +14,7 @@ layout: default
 - Starte die [`SpringDataApp`](https://github.com/volkmann-design-code/IU-DSPWA1022-Programmierung-von-Web-Anwendungen/tree/main/packages/dspwa1022/src/main/java/org/iu/dspwa1022/springdata/SpringDataApp.java)
 - Mach dich mit den neuen Klassen zum Thema `Department` und `Employee` vertraut (z.B. [`DepartmentController`](https://github.com/volkmann-design-code/IU-DSPWA1022-Programmierung-von-Web-Anwendungen/blob/main/packages/dspwa1022/src/main/java/org/iu/dspwa1022/springdata/controller/DepartmentController.java))
 - Importiere die [`relations.postman-collection.json`](https://github.com/volkmann-design-code/IU-DSPWA1022-Programmierung-von-Web-Anwendungen/tree/main/packages/resources/postman/relations.postman_collection.json) in deiner VS-Code Postman-Ansicht
-- Bearbeite die Aufgaben (Teil 2) in der [`README`](https://github.com/volkmann-design-code/IU-DSPWA1022-Programmierung-von-Web-Anwendungen/tree/main/packages/dspwa1022/src/main/java/org/iu/dspwa1022/springdata/README.md)
+- Bearbeite die _Aufgaben (Teil 2)_ in der [`README`](https://github.com/volkmann-design-code/IU-DSPWA1022-Programmierung-von-Web-Anwendungen/tree/main/packages/dspwa1022/src/main/java/org/iu/dspwa1022/springdata/README.md)
 
 </div>
 <div class="col-span-12">

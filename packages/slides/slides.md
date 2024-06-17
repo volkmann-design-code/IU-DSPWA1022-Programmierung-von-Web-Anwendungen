@@ -437,3 +437,227 @@ src: ./slides/01160-task-spring-data-relations.md
 ---
 src: ./slides/01161-task-spring-data-relations-details.md
 ---
+
+---
+src: ./slides/01170-db-intro.md
+---
+
+---
+src: ./slides/01172-db-basics.md
+---
+
+---
+src: ./slides/01173-db-basics-1-sql.md
+---
+
+---
+src: ./slides/01174-db-basics-2.md
+---
+
+---
+src: ./slides/01178-task-explore-course-db.md
+---
+
+---
+src: ./slides/01179-task-explore-course-db-details.md
+---
+
+---
+src: ./slides/01182-db-spring-pg-connection.md
+---
+
+---
+src: ./slides/01184-db-spring-pg-connection-entities.md
+---
+
+---
+src: ./slides/01186-db-spring-pg-connection-repositories.md
+---
+
+---
+src: ./slides/01188-db-spring-pg-connection-controllers.md
+---
+
+---
+src: ./slides/01190-demo-db-spring-pg.md
+---
+
+---
+src: ./slides/01192-db-spring-pg-insert-data.md
+---
+
+---
+src: ./slides/01194-db-spring-pg-update-data.md
+---
+
+---
+src: ./slides/01196-task-db-spring-pg-write-data.md
+---
+
+---
+src: ./slides/01197-task-db-spring-pg-write-data-details.md
+---
+
+---
+src: ./slides/01210-spring-outro-1.md
+---
+
+---
+src: ./slides/01300-alternative-apis.md
+---
+
+---
+src: ./slides/01302-alternative-apis-intro.md
+---
+
+---
+src: ./slides/01304-alternative-apis-express.md
+---
+
+---
+src: ./slides/01306-alternative-apis-express-post.md
+---
+
+---
+src: ./slides/01308-alternative-apis-express-view-engine.md
+---
+
+---
+src: ./slides/01310-demo-express.md
+---
+
+---
+src: ./slides/01315-task-express.md
+---
+
+---
+src: ./slides/01316-task-express-details.md
+---
+
+---
+src: ./slides/01320-express-postgres.md
+---
+
+---
+src: ./slides/01322-express-postgres-2.md
+---
+
+---
+src: ./slides/01324-express-postgres-3-env-vars.md
+---
+
+---
+src: ./slides/01330-task-express-db.md
+---
+
+---
+src: ./slides/01332-task-express-db-details.md
+---
+
+---
+src: ./slides/01336-express-save-data.md
+---
+
+---
+src: ./slides/01338-sql-injection.md
+---
+
+---
+src: ./slides/01340-sql-injection-countermeasures-1.md
+---
+
+---
+src: ./slides/01342-sql-injection-countermeasures-2.md
+---
+
+---
+src: ./slides/01344-sql-injection-countermeasures-3.md
+---
+
+---
+src: ./slides/01350-task-express-validation.md
+---
+
+---
+src: ./slides/01352-task-express-validation-details.md
+---
+
+---
+src: ./slides/01360-code-organization.md
+---
+
+---
+src: ./slides/01362-code-organization-imports.md
+---
+
+---
+src: ./slides/01364-code-organization-routes.md
+---
+
+---
+src: ./slides/01380-nestjs-intro.md
+---
+
+---
+src: ./slides/01382-nestjs-intro-2.md
+---
+
+---
+src: ./slides/01384-nestjs-intro-main-ts.md
+---
+
+---
+src: ./slides/01386-nestjs-intro-modules.md
+---
+
+---
+src: ./slides/01388-nestjs-intro-controllers.md
+---
+
+---
+src: ./slides/01389-1-nestjs-intro-controllers-params.md
+---
+
+---
+src: ./slides/01389-2-nestjs-intro-controllers-body.md
+---
+
+---
+src: ./slides/01390-nestjs-intro-services.md
+---
+
+---
+src: ./slides/01396-demo-nestjs.md
+---
+
+---
+src: ./slides/01400-nestjs-database.md
+---
+
+---
+src: ./slides/01402-nestjs-entitites.md
+---
+
+---
+src: ./slides/01404-nestjs-entitites-2.md
+---
+
+---
+src: ./slides/01406-nestjs-feature-module.md
+---
+
+---
+src: ./slides/01408-nestjs-typeorm-service.md
+---
+
+---
+src: ./slides/01420-demo-nestjs-typeorm.md
+---
+
+---
+src: ./slides/01440-task-nestjs.md
+---
+
+---
+src: ./slides/01442-task-nestjs-details.md
+---
