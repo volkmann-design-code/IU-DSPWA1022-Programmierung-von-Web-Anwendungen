@@ -20,6 +20,6 @@ public class Rectangle implements Shape {
     public double getPerimeter() {
         // TODO: Implement this method
         return (height + width)*2;
-    }
+    } 
 
 }

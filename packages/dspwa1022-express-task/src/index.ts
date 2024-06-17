@@ -20,8 +20,13 @@ app.get("/customers", (req, res) => {
   res.json(customers);
 });
 
-app.get("/", (req, res) => {
-  res.send("Hello from Express!");
+app.get("/customers/:id", (req, res) => {
+  const foundCustomer =customers.find((x) => x.id === req.params.id);
+  if (foundCustomer){
+    res.json(foundCustomer)
+  } else{
+    res.status(404).send("Customer not found")
+  }
 });
 
 const port = 3000;
