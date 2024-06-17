@@ -629,3 +629,35 @@ src: ./slides/01390-nestjs-intro-services.md
 ---
 src: ./slides/01396-demo-nestjs.md
 ---
+
+---
+src: ./slides/01400-nestjs-database.md
+---
+
+---
+src: ./slides/01402-nestjs-entitites.md
+---
+
+---
+src: ./slides/01404-nestjs-entitites-2.md
+---
+
+---
+src: ./slides/01406-nestjs-feature-module.md
+---
+
+---
+src: ./slides/01408-nestjs-typeorm-service.md
+---
+
+---
+src: ./slides/01420-demo-nestjs-typeorm.md
+---
+
+---
+src: ./slides/01440-task-nestjs.md
+---
+
+---
+src: ./slides/01442-task-nestjs-details.md
+---
