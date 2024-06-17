@@ -615,6 +615,14 @@ src: ./slides/01388-nestjs-intro-controllers.md
 ---
 
 ---
+src: ./slides/01389-1-nestjs-intro-controllers-params.md
+---
+
+---
+src: ./slides/01389-2-nestjs-intro-controllers-body.md
+---
+
+---
 src: ./slides/01390-nestjs-intro-services.md
 ---
 
