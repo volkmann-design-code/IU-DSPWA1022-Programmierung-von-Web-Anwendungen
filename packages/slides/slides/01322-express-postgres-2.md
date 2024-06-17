@@ -39,7 +39,7 @@ export function query(text: string, params: any[]) {
 
 ```ts
 import express from "express";
-import { query } from "db";
+import { query } from "./db";
 
 const app = express();
 

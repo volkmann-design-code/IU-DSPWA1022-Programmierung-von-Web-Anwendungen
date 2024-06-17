@@ -40,6 +40,7 @@ export function query(text: string, params: any[]) {
 
 ```sh
 DB_HOST=database.host.com
+DB_DATABASE=database-name
 DB_USER=database-user
 DB_PASSWORD=database-password
 ```

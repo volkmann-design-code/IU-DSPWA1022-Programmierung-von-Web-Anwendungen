@@ -32,6 +32,8 @@ app.post("/customers", async (req, res) => {
 </div>
 <div class="col-span-6">
 
+<Filename>JSON</Filename>
+
 ```json
 {
   "id": "27189286-d35c-437a-b595-7fbb3380ebf2",

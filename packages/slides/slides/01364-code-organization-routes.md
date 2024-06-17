@@ -7,7 +7,7 @@ layout: default
 <div class="grid grid-cols-12 gap-6">
 <div class="col-span-12">
 
-- Mit dem Express-`Router` können wir die HTTP-Routen aufteilen
+- Mit dem Express-[`Router`](https://expressjs.com/en/guide/routing.html#express-router) können wir die HTTP-Routen aufteilen und in eigenen Dateien organisieren
 
 </div>
 <div class="col-span-6">
