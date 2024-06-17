@@ -2,9 +2,6 @@ package org.iu.dspwa1022.store.model;
 
 import java.util.UUID;
 
-import org.hibernate.annotations.GenericGenerator;
-import org.hibernate.annotations.Parameter;
-
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.Id;
@@ -15,20 +12,20 @@ import jakarta.persistence.Table;
 public class Product {
 
     @Id
-    @GeneratedValue(generator = "UUID")
-    @GenericGenerator(name = "UUID", strategy = "org.hibernate.id.UUIDGenerator", parameters = {
-            @Parameter(name = "uuid_gen_strategy_class", value = "org.hibernate.id.uuid.CustomVersionOneStrategy")
-    })
+    @GeneratedValue
     private UUID id;
 
     private String name;
 
-    public String getName() {
-        return name;
+    // Use Float instead of float to allow null values
+    private Float price;
+
+    public Float getPrice() {
+        return price;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setPrice(Float price) {
+        this.price = price;
     }
 
     public UUID getId() {
@@ -37,6 +34,14 @@ public class Product {
 
     public void setId(UUID id) {
         this.id = id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
     }
 
 }
