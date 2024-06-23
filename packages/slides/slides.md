@@ -717,3 +717,19 @@ src: ./slides/01440-task-nestjs.md
 ---
 src: ./slides/01442-task-nestjs-details.md
 ---
+
+---
+src: ./slides/01600-frontend.md
+---
+
+---
+src: ./slides/01602-frontend-intro.md
+---
+
+---
+src: ./slides/01604-frontend-webhosting.md
+---
+
+---
+src: ./slides/99999-end.md
+---
