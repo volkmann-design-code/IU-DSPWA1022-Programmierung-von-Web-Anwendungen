@@ -731,5 +731,13 @@ src: ./slides/01604-frontend-webhosting.md
 ---
 
 ---
+src: ./slides/01610-html-basics.md
+---
+
+---
+src: ./slides/01612-html-semantics.md
+---
+
+---
 src: ./slides/99999-end.md
 ---
