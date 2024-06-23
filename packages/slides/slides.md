@@ -539,6 +539,14 @@ src: ./slides/01302-0110-js-arrow-functions.md
 ---
 
 ---
+src: ./slides/01302-0114-js-promises.md
+---
+
+---
+src: ./slides/01302-0115-js-promises-async-await.md
+---
+
+---
 src: ./slides/01302-0120-js-execution-browser.md
 ---
 
