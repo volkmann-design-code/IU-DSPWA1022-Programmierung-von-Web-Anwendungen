@@ -511,6 +511,26 @@ src: ./slides/01302-alternative-apis-intro.md
 ---
 
 ---
+src: ./slides/01302-0100-js-intro.md
+---
+
+---
+src: ./slides/01302-0102-js-data-types.md
+---
+
+---
+src: ./slides/01302-0104-js-objects.md
+---
+
+---
+src: ./slides/01302-0106-js-arrays.md
+---
+
+---
+src: ./slides/01302-0108-js-functions.md
+---
+
+---
 src: ./slides/01304-alternative-apis-express.md
 ---
 
