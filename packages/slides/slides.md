@@ -539,6 +539,14 @@ src: ./slides/01302-0110-js-arrow-functions.md
 ---
 
 ---
+src: ./slides/01302-0120-js-execution-browser.md
+---
+
+---
+src: ./slides/01302-0122-js-execution-node.md
+---
+
+---
 src: ./slides/01302-0200-ts-intro.md
 ---
 
