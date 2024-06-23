@@ -531,6 +531,18 @@ src: ./slides/01302-0108-js-functions.md
 ---
 
 ---
+src: ./slides/01302-0200-ts-intro.md
+---
+
+---
+src: ./slides/01302-0202-ts-intro-2.md
+---
+
+---
+src: ./slides/01302-0204-ts-intro-3.md
+---
+
+---
 src: ./slides/01304-alternative-apis-express.md
 ---
 
