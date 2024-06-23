@@ -527,7 +527,15 @@ src: ./slides/01302-0106-js-arrays.md
 ---
 
 ---
+src: ./slides/01302-0107-js-let-const-var.md
+---
+
+---
 src: ./slides/01302-0108-js-functions.md
+---
+
+---
+src: ./slides/01302-0110-js-arrow-functions.md
 ---
 
 ---
