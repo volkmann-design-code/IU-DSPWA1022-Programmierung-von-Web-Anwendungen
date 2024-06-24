@@ -739,5 +739,17 @@ src: ./slides/01612-html-semantics.md
 ---
 
 ---
+src: ./slides/01640-css-basics.md
+---
+
+---
+src: ./slides/01644-css-cascading.md
+---
+
+---
+src: ./slides/01650-demo-html-css.md
+---
+
+---
 src: ./slides/99999-end.md
 ---
