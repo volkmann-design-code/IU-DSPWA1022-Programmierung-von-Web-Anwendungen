@@ -1,4 +1,8 @@
 {
   "postman.telemetry.enabled": false,
-  "java.configuration.updateBuildConfiguration": "interactive"
+  "java.configuration.updateBuildConfiguration": "interactive",
+  "java.compile.nullAnalysis.mode": "automatic",
+  "githubPullRequests.ignoredPullRequestBranches": [
+    "main"
+  ]
 }
