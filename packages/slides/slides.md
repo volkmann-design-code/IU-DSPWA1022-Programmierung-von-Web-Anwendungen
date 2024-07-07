@@ -759,5 +759,21 @@ src: ./slides/01702-exam-details.md
 ---
 
 ---
+src: ./slides/01800-github-pages.md
+---
+
+---
+src: ./slides/01802-github-pages-intro.md
+---
+
+---
+src: ./slides/01810-task-gh-pages.md
+---
+
+---
+src: ./slides/01812-task-gh-pages-details.md
+---
+
+---
 src: ./slides/99999-end.md
 ---
