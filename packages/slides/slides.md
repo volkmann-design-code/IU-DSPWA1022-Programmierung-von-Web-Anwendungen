@@ -751,5 +751,13 @@ src: ./slides/01650-demo-html-css.md
 ---
 
 ---
+src: ./slides/01700-exam.md
+---
+
+---
+src: ./slides/01702-exam-details.md
+---
+
+---
 src: ./slides/99999-end.md
 ---
