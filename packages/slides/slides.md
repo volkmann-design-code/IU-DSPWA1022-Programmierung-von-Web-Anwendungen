@@ -747,6 +747,10 @@ src: ./slides/01644-css-cascading.md
 ---
 
 ---
+src: ./slides/01646-css-classes.md
+---
+
+---
 src: ./slides/01650-demo-html-css.md
 ---
 
@@ -772,6 +776,50 @@ src: ./slides/01810-task-gh-pages.md
 
 ---
 src: ./slides/01812-task-gh-pages-details.md
+---
+
+---
+src: ./slides/01900-css-frameworks.md
+---
+
+---
+src: ./slides/01902-css-frameworks-intro.md
+---
+
+---
+src: ./slides/01904-bootstrap.md
+---
+
+---
+src: ./slides/01906-bootstrap-container.md
+---
+
+---
+src: ./slides/01908-bootstrap-grid.md
+---
+
+---
+src: ./slides/01910-bootstrap-breakpoints.md
+---
+
+---
+src: ./slides/01920-bootstrap-reboot.md
+---
+
+---
+src: ./slides/01930-bootstrap-components.md
+---
+
+---
+src: ./slides/01934-bootstrap-utils.md
+---
+
+---
+src: ./slides/01950-task-bootstrap.md
+---
+
+---
+src: ./slides/01952-task-bootstrap-details.md
 ---
 
 ---
