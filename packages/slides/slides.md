@@ -739,6 +739,10 @@ src: ./slides/01612-html-semantics.md
 ---
 
 ---
+src: ./slides/01620-devtools.md
+---
+
+---
 src: ./slides/01640-css-basics.md
 ---
 
