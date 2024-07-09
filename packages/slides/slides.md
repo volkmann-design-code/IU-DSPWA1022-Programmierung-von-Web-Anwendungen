@@ -823,5 +823,17 @@ src: ./slides/01952-task-bootstrap-details.md
 ---
 
 ---
+src: ./slides/01956-demo-bootstrap-components.md
+---
+
+---
+src: ./slides/01958-task-bootstrap-components.md
+---
+
+---
+src: ./slides/01960-task-bootstrap-components-details.md
+---
+
+---
 src: ./slides/99999-end.md
 ---
