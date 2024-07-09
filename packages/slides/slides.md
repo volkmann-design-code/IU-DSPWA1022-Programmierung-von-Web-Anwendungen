@@ -839,5 +839,17 @@ src: ./slides/01960-task-bootstrap-components-details.md
 ---
 
 ---
+src: ./slides/02000-javascript-fetch.md
+---
+
+---
+src: ./slides/02010-task-fetch.md
+---
+
+---
+src: ./slides/02012-task-fetch-details.md
+---
+
+---
 src: ./slides/99999-end.md
 ---
