@@ -871,6 +871,14 @@ src: ./slides/01980-demo-tailwind.md
 ---
 
 ---
+src: ./slides/01982-task-tailwind.md
+---
+
+---
+src: ./slides/01984-task-tailwind-details.md
+---
+
+---
 src: ./slides/02000-javascript-fetch.md
 ---
 
