@@ -895,5 +895,17 @@ src: ./slides/02020-javascript-fetch-post.md
 ---
 
 ---
+src: ./slides/02050-webcomponents.md
+---
+
+---
+src: ./slides/02052-webcomponents-intro.md
+---
+
+---
+src: ./slides/02054-webcomponents-shadow-dom.md
+---
+
+---
 src: ./slides/99999-end.md
 ---
