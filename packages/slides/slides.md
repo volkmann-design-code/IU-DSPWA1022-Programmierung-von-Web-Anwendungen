@@ -851,6 +851,26 @@ src: ./slides/01960-task-bootstrap-components-details.md
 ---
 
 ---
+src: ./slides/01975-tailwind.md
+---
+
+---
+src: ./slides/01976-tailwind-examples.md
+---
+
+---
+src: ./slides/01977-tailwind-breakpoints.md
+---
+
+---
+src: ./slides/01978-tailwind-installation.md
+---
+
+---
+src: ./slides/01980-demo-tailwind.md
+---
+
+---
 src: ./slides/02000-javascript-fetch.md
 ---
 
