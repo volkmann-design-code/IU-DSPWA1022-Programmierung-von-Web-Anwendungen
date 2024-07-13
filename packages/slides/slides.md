@@ -783,6 +783,18 @@ src: ./slides/01812-task-gh-pages-details.md
 ---
 
 ---
+src: ./slides/01850-local-development.md
+---
+
+---
+src: ./slides/01852-local-development-basics.md
+---
+
+---
+src: ./slides/01854-local-development-tools.md
+---
+
+---
 src: ./slides/01900-css-frameworks.md
 ---
 
