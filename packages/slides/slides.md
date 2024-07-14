@@ -879,6 +879,10 @@ src: ./slides/01984-task-tailwind-details.md
 ---
 
 ---
+src: ./slides/01999-javascript-important-parts.md
+---
+
+---
 src: ./slides/02000-javascript-fetch.md
 ---
 
@@ -892,6 +896,54 @@ src: ./slides/02010-task-fetch.md
 
 ---
 src: ./slides/02012-task-fetch-details.md
+---
+
+---
+src: ./slides/02013-1-date.md
+---
+
+---
+src: ./slides/02013-math.md
+---
+
+---
+src: ./slides/02014-1-map.md
+---
+
+---
+src: ./slides/02014-2-set.md
+---
+
+---
+src: ./slides/02014-timeout-interval.md
+---
+
+---
+src: ./slides/02016-getElementById.md
+---
+
+---
+src: ./slides/02018-querySelector.md
+---
+
+---
+src: ./slides/02020-history.md
+---
+
+---
+src: ./slides/02022-storage.md
+---
+
+---
+src: ./slides/02024-cookies.md
+---
+
+---
+src: ./slides/02026-visibility-state.md
+---
+
+---
+src: ./slides/02028-media-queries.md
 ---
 
 ---

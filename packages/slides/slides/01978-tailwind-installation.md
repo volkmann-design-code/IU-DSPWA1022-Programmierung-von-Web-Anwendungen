@@ -9,7 +9,7 @@ layout: default
 
 - Im Gegensatz zu Bootstrap generiert Tailwind das CSS dynamisch und wird daher in den Build-Prozess der Webseite eingebunden
 - Es gibt mehrere Möglichkeiten der Einbindung: [CLI](https://tailwindcss.com/docs/installation), [Postcss](https://tailwindcss.com/docs/installation/using-postcss), [Framework-Spezifisch](https://tailwindcss.com/docs/installation/framework-guides)
-- Für die schnelle Integration zu Testzwecken existiert das [Play CDN](https://tailwindcss.com/docs/installation/play-cdn), womit das nötige CSS dynamsich im Browser generiert wird (somit ist kein Build-Prozess notwendig)
+- Für die schnelle Integration zu Testzwecken existiert das [Play CDN](https://tailwindcss.com/docs/installation/play-cdn), womit das nötige CSS dynamisch im Browser generiert wird (somit ist kein Build-Prozess notwendig)
 
 <Filename>tailwind-play-cdn.html</Filename>
 
