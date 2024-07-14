@@ -915,5 +915,53 @@ src: ./slides/02062-task-webcomponents-details.md
 ---
 
 ---
+src: ./slides/02100-frontend-frameworks.md
+---
+
+---
+src: ./slides/02102-frontend-frameworks-intro.md
+---
+
+---
+src: ./slides/02200-react-intro.md
+---
+
+---
+src: ./slides/02202-react-data.md
+---
+
+---
+src: ./slides/02204-react-conditional-rendering.md
+---
+
+---
+src: ./slides/02206-react-lists.md
+---
+
+---
+src: ./slides/02208-react-events.md
+---
+
+---
+src: ./slides/02210-react-state.md
+---
+
+---
+src: ./slides/02212-react-state-shared.md
+---
+
+---
+src: ./slides/02220-demo-react.md
+---
+
+---
+src: ./slides/02225-task-react.md
+---
+
+---
+src: ./slides/02226-task-react-details.md
+---
+
+---
 src: ./slides/99999-end.md
 ---
