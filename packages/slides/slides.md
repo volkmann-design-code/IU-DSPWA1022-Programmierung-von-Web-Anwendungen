@@ -883,15 +883,15 @@ src: ./slides/02000-javascript-fetch.md
 ---
 
 ---
+src: ./slides/02002-javascript-fetch-post.md
+---
+
+---
 src: ./slides/02010-task-fetch.md
 ---
 
 ---
 src: ./slides/02012-task-fetch-details.md
----
-
----
-src: ./slides/02020-javascript-fetch-post.md
 ---
 
 ---
