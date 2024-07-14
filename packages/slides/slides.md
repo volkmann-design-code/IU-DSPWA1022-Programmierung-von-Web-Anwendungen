@@ -907,5 +907,13 @@ src: ./slides/02054-webcomponents-shadow-dom.md
 ---
 
 ---
+src: ./slides/02060-task-webcomponents.md
+---
+
+---
+src: ./slides/02062-task-webcomponents-details.md
+---
+
+---
 src: ./slides/99999-end.md
 ---

@@ -1,7 +1,10 @@
 class Timer extends HTMLElement {
   count = 0;
   interval;
-  useShadowDom = true;
+
+  /**
+   * @type {ShadowRoot}
+   */
   shadow;
 
   connectedCallback() {
@@ -48,6 +51,10 @@ class Timer extends HTMLElement {
       this.appendChild(span);
       this.appendChild(button);
     }
+  }
+
+  get useShadowDom() {
+    return this.getAttribute("use-shadow-dom") === "true";
   }
 }
 
