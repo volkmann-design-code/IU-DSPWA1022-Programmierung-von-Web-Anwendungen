@@ -1051,5 +1051,21 @@ src: ./slides/02320-demo-angular.md
 ---
 
 ---
+src: ./slides/02330-angular-signals.md
+---
+
+---
+src: ./slides/02332-angular-services.md
+---
+
+---
+src: ./slides/02340-angular-forms.md
+---
+
+---
+src: ./slides/02342-angular-forms-formgroup.md
+---
+
+---
 src: ./slides/99999-end.md
 ---

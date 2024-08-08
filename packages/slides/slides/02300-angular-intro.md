@@ -8,7 +8,7 @@ layout: default
 <div class="col-span-12">
 
 - Ein weiteres populäres Framework ist [Angular](https://angular.dev/)
-- Angular Apps bestehen ebenfalls aus wiederverwendbaren Komponenten sowie weiteren Bestandteilen wie etwa _Services_
+- Angular Apps bestehen ebenfalls aus wiederverwendbaren [Komponenten](https://angular.dev/essentials/components) sowie weiteren Bestandteilen wie etwa _Services_
 - Den Kern einer Angular-Komponente bildet eine TypeScript-Klasse mit Metadaten aus einem _Decorator_
 
 </div>

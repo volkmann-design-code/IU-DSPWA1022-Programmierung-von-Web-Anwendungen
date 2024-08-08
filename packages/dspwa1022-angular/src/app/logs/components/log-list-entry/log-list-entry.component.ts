@@ -1,6 +1,6 @@
-import { Component, Input, model } from '@angular/core';
-import { LogEntry } from '../../model/log-entry';
 import { DatePipe } from '@angular/common';
+import { Component, model } from '@angular/core';
+import { LogEntry } from '../../model/log-entry';
 
 @Component({
   selector: 'app-log-list-entry',

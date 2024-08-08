@@ -1,6 +1,5 @@
 import { Component } from '@angular/core';
 import { LogService } from '../../services/log.service';
-import { DatePipe } from '@angular/common';
 import { LogListEntryComponent } from "../log-list-entry/log-list-entry.component";
 
 @Component({

@@ -2,11 +2,12 @@ import { Component, computed, model } from '@angular/core';
 import { Task } from '../../model/task';
 import { TodoListItemComponent } from "../todo-list-item/todo-list-item.component";
 import { LogService } from '../../../logs/services/log.service';
+import { AddTodoInputComponent } from "../add-todo-input/add-todo-input.component";
 
 @Component({
   selector: 'app-todo-list',
   standalone: true,
-  imports: [TodoListItemComponent],
+  imports: [TodoListItemComponent, AddTodoInputComponent],
   templateUrl: './todo-list.component.html',
   styleUrl: './todo-list.component.scss'
 })
@@ -27,6 +28,11 @@ export class TodoListComponent {
   resetAllTasks() {
     this.tasks.update(tasks => tasks.map(task => ({ ...task, done: false })));
     this.logs.addEntry('All tasks reset!');
+  }
+
+  addTask(task: Task) {
+    this.tasks.update(tasks => [...tasks, task]);
+    this.logs.addEntry(`Task "${task.title}" added!`);
   }
 
 }
