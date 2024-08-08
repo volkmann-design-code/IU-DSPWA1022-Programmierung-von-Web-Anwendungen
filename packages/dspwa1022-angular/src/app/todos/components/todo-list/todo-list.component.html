@@ -1,0 +1,15 @@
+<ul>
+@for (task of tasks(); track task.title) {
+  <app-todo-list-item
+    [task]="task"
+    (taskChange)="announceTaskCompletion(task)"
+  />
+}
+</ul>
+
+<footer>
+  {{completedTaskCount()}}
+  of
+  {{tasks().length}}
+  tasks completed
+</footer>
