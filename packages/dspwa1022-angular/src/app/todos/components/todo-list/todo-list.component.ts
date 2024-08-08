@@ -1,6 +1,7 @@
 import { Component, computed, model } from '@angular/core';
 import { Task } from '../../model/task';
 import { TodoListItemComponent } from "../todo-list-item/todo-list-item.component";
+import { LogService } from '../../../logs/services/log.service';
 
 @Component({
   selector: 'app-todo-list',
@@ -14,9 +15,18 @@ export class TodoListComponent {
   tasks = model.required<Task[]>();
   completedTaskCount = computed(() => this.tasks().filter(task => task.done).length);
 
+  constructor(
+    private readonly logs: LogService
+  ) {}
+
   announceTaskCompletion(task: Task) {
     this.tasks.update(tasks => tasks.map(t => t === task ? { ...t, done: true } : t));
-    console.log(`Task "${task.title}" completed!`);
+    this.logs.addEntry(`Task "${task.title}" completed!`);
+  }
+
+  resetAllTasks() {
+    this.tasks.update(tasks => tasks.map(task => ({ ...task, done: false })));
+    this.logs.addEntry('All tasks reset!');
   }
 
 }

@@ -12,4 +12,11 @@
   of
   {{tasks().length}}
   tasks completed
+
+  <button
+    (click)="resetAllTasks()"
+    [disabled]="completedTaskCount() === 0"
+  >
+    Reset
+  </button>
 </footer>
