@@ -1015,5 +1015,37 @@ src: ./slides/02226-task-react-details.md
 ---
 
 ---
+src: ./slides/02300-angular-intro.md
+---
+
+---
+src: ./slides/02302-angular-components.md
+---
+
+---
+src: ./slides/02304-angular-inputs.md
+---
+
+---
+src: ./slides/02306-angular-dynamic-attributes.md
+---
+
+---
+src: ./slides/02308-angular-for.md
+---
+
+---
+src: ./slides/02310-angular-if.md
+---
+
+---
+src: ./slides/02312-angular-event-handling.md
+---
+
+---
+src: ./slides/02314-angular-outputs.md
+---
+
+---
 src: ./slides/99999-end.md
 ---
