@@ -1139,5 +1139,9 @@ src: ./slides/04024-misc-git.md
 ---
 
 ---
+src: ./slides/04026-misc-gource.md
+---
+
+---
 src: ./slides/99999-end.md
 ---
