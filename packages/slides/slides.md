@@ -1091,5 +1091,17 @@ src: ./slides/02354-task-angular-forms-details.md
 ---
 
 ---
+src: ./slides/02360-angular-build.md
+---
+
+---
+src: ./slides/02362-angular-build-real-world-project.md
+---
+
+---
+src: ./slides/02364-angular-build-index-html.md
+---
+
+---
 src: ./slides/99999-end.md
 ---
