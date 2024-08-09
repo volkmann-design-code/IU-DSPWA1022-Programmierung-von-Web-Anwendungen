@@ -1127,5 +1127,9 @@ src: ./slides/04018-misc-can-i-use.md
 ---
 
 ---
+src: ./slides/04020-misc-variable-fonts.md
+---
+
+---
 src: ./slides/99999-end.md
 ---
