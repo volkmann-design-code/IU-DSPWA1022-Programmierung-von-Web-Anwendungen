@@ -1131,5 +1131,13 @@ src: ./slides/04020-misc-variable-fonts.md
 ---
 
 ---
+src: ./slides/04022-misc-a11y.md
+---
+
+---
+src: ./slides/04024-misc-git.md
+---
+
+---
 src: ./slides/99999-end.md
 ---
