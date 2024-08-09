@@ -1103,5 +1103,29 @@ src: ./slides/02364-angular-build-index-html.md
 ---
 
 ---
+src: ./slides/04000-misc.md
+---
+
+---
+src: ./slides/04002-misc-intro.md
+---
+
+---
+src: ./slides/04010-misc-container-queries.md
+---
+
+---
+src: ./slides/04014-misc-polypane.md
+---
+
+---
+src: ./slides/04016-misc-browserstack.md
+---
+
+---
+src: ./slides/04018-misc-can-i-use.md
+---
+
+---
 src: ./slides/99999-end.md
 ---
