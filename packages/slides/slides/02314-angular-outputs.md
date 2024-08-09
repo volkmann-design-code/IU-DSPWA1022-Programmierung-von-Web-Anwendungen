@@ -7,7 +7,7 @@ layout: default
 <div class="grid grid-cols-12 gap-x-6">
 <div class="col-span-12">
 
-- Mit _Outputs_ können wir Informationen inder Komponenten-Hierarchie nach oben geben bzw. eigene Events unserer Komponenten anlegen
+- Mit [_Outputs_](https://angular.dev/guide/components/outputs) können wir Informationen inder Komponenten-Hierarchie nach oben geben bzw. eigene Events unserer Komponenten anlegen
 
 </div>
 
@@ -85,3 +85,9 @@ export class TodoListItem {
 </div>
 
 <PageNumber/>
+
+<!--
+
+Bald verfügbar: https://angular.dev/guide/components/output-fn
+
+-->

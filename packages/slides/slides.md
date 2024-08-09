@@ -1051,6 +1051,14 @@ src: ./slides/02320-demo-angular.md
 ---
 
 ---
+src: ./slides/02322-task-angular.md
+---
+
+---
+src: ./slides/02323-task-angular-details.md
+---
+
+---
 src: ./slides/02330-angular-signals.md
 ---
 

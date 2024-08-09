@@ -7,7 +7,7 @@ layout: default
 <div class="grid grid-cols-12 gap-6">
 <div class="col-span-12">
 
-- Wir können auch _Inputs_ sowie alle Standard-HTML-Attribute (Klassen, Disabled, ...) mittels der `[]`-Syntax mit dynamischen Daten belegen
+- Wir können auch _Inputs_ (im Beispiel `done`) sowie alle Standard-HTML-Attribute (z.B. `class` oder `disabled`) mit der `[]`-Syntax mit dynamischen Daten belegen
 
 </div>
 

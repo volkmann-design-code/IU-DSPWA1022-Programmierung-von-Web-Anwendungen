@@ -1,8 +1,8 @@
 import { Component, computed, model } from '@angular/core';
-import { Task } from '../../model/task';
-import { TodoListItemComponent } from "../todo-list-item/todo-list-item.component";
 import { LogService } from '../../../logs/services/log.service';
+import { Task } from '../../model/task';
 import { AddTodoInputComponent } from "../add-todo-input/add-todo-input.component";
+import { TodoListItemComponent } from "../todo-list-item/todo-list-item.component";
 
 @Component({
   selector: 'app-todo-list',

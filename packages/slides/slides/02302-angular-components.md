@@ -7,7 +7,8 @@ layout: default
 <div class="grid grid-cols-12 gap-6">
 <div class="col-span-12">
 
-- Üblicherweise teilt man den Code der _Klasse_, des _Templates_ und der _Styles_ in drei Dateien auf, um die Komponenten übersichtlich zu halten
+- Üblicherweise teilt man den Code der _Klasse_ (`ts`), des _Templates_ (`html`) und der _Styles_ (`css`) in drei Dateien auf, um die Komponenten übersichtlich zu halten
+- In den Metadaten der Komponente werden diese Dateien dann angegeben
 
 </div>
 
