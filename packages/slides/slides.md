@@ -1051,6 +1051,10 @@ src: ./slides/02320-demo-angular.md
 ---
 
 ---
+src: ./slides/02321-angular-cli.md
+---
+
+---
 src: ./slides/02322-task-angular.md
 ---
 
@@ -1076,6 +1080,14 @@ src: ./slides/02342-angular-forms-formgroup.md
 
 ---
 src: ./slides/02350-demo-angular-forms-signals.md
+---
+
+---
+src: ./slides/02352-task-angular-forms.md
+---
+
+---
+src: ./slides/02354-task-angular-forms-details.md
 ---
 
 ---
