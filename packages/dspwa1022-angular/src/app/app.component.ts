@@ -4,13 +4,14 @@ import { TodoListComponent } from "./todos-signals/components/todo-list/todo-lis
 import { LogListComponent } from "./logs/components/log-list/log-list.component";
 import { LogService } from './logs/services/log.service';
 import { CalculatorComponent } from "./calculator/components/calculator/calculator.component";
+import { FormsDemoComponent } from "./forms/components/forms-demo/forms-demo.component";
 
 @Component({
   selector: 'app-root',
   standalone: true,
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss',
-  imports: [TodoListComponent, LogListComponent, CalculatorComponent]
+  imports: [TodoListComponent, LogListComponent, CalculatorComponent, FormsDemoComponent]
 })
 export class AppComponent {
 

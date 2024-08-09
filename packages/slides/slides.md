@@ -1075,5 +1075,9 @@ src: ./slides/02342-angular-forms-formgroup.md
 ---
 
 ---
+src: ./slides/02350-demo-angular-forms-signals.md
+---
+
+---
 src: ./slides/99999-end.md
 ---
