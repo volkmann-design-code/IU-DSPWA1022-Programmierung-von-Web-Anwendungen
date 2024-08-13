@@ -1111,6 +1111,10 @@ src: ./slides/04002-misc-intro.md
 ---
 
 ---
+src: ./slides/04008-misc-firebase.md
+---
+
+---
 src: ./slides/04010-misc-container-queries.md
 ---
 
