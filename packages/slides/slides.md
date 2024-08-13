@@ -1111,6 +1111,10 @@ src: ./slides/04002-misc-intro.md
 ---
 
 ---
+src: ./slides/04004-misc-web-app-deployment.md
+---
+
+---
 src: ./slides/04008-misc-firebase.md
 ---
 
